@@ -82,7 +82,7 @@ class Consultas
         return sistema::getFila($sql);
     }
 
-    public static function insertProducto($Cod_Mue, $Nom_Mue, $Des_Mue, $Med_Mue, $Col_Mue, $Pro_Mue, $Pco_Mue, $Uti_Mue, $Pre_Mue, $Im1_Mue, $Im2_Mue, $Im3_Mue, $Cat_Mue, $Sca_Mue)
+    public static function insertProducto($Cod_Mue, $Nom_Mue, $Des_Mue, $Med_Mue, $Col_Mue, $Pro_Mue, $Pco_Mue, $Uti_Mue, $Pre_Mue, $Pr2_Mue, $Im1_Mue, $Im2_Mue, $Im3_Mue, $Cat_Mue, $Sca_Mue)
     {
         $sql = "Insert Into productos " .
             "(" .
@@ -95,6 +95,7 @@ class Consultas
             "Pco_Mue," .
             "Uti_Mue," .
             "Pre_Mue," .
+            "Pr2_Mue," .
             "Im1_Mue," .
             "Im2_Mue," .
             "Im3_Mue," .
@@ -112,6 +113,7 @@ class Consultas
             "$Pco_Mue," .
             "$Uti_Mue," .
             "$Pre_Mue," .
+            "$Pr2_Mue," .
             "'$Im1_Mue'," .
             "'$Im2_Mue'," .
             "'$Im3_Mue'," .

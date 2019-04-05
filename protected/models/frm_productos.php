@@ -14,6 +14,7 @@ class frm_productos extends CFormModel
     public $Pco_Mue;
     public $Uti_Mue;
     public $Pre_Mue;
+    public $Pr2_Mue;
     public $Im1_Mue;
     public $Im2_Mue;
     public $Im3_Mue;
@@ -66,6 +67,10 @@ class frm_productos extends CFormModel
             array('Pre_Mue', 'encodingString'),
             array('Pre_Mue', 'length', 'max' => 11),
 
+            array('Pr2_Mue', 'required'),
+            array('Pr2_Mue', 'encodingString'),
+            array('Pr2_Mue', 'length', 'max' => 11),
+
             array('Im1_Mue', 'length', 'max' => 50),
             array('Im1_Mue', 'encodingString'),
 
@@ -91,6 +96,7 @@ class frm_productos extends CFormModel
             'Pco_Mue' => 'Precio Costo',
             'Uti_Mue' => 'Utilidad %',
             'Pre_Mue' => 'Precio',
+            'Pr2_Mue' => 'Precio',
             'Im1_Mue' => 'Imágen 1',
             'Im2_Mue' => 'Imágen 2',
             'Im3_Mue' => 'Imágen 3',

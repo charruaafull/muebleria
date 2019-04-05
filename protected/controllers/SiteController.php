@@ -142,7 +142,7 @@ class SiteController extends Controller
             $this->render('frm-prod', array('pro' => $pro));
         else:
             $prod = Consultas::getProductos();
-           // $Cod_Mue = sistema::generarCodigo();
+            // $Cod_Mue = sistema::generarCodigo();
             $this->render('frm-prod', array('prodL' => $prod));
         endif;
     }
@@ -299,6 +299,7 @@ class SiteController extends Controller
         $model->Pco_Mue = Yii::app()->request->getParam('Pco_Mue');
         $model->Uti_Mue = Yii::app()->request->getParam('Uti_Mue');
         $model->Pre_Mue = Yii::app()->request->getParam('Pre_Mue');
+        $model->Pr2_Mue = Yii::app()->request->getParam('Pr2_Mue');
 
         $directorio = Yii::app()->getBasePath() . '/runtime/productos/';
 
@@ -351,7 +352,7 @@ class SiteController extends Controller
             $res = array(
                 'error' => false,
             );
-            Consultas::insertProducto($model->Cod_Mue, $model->Nom_Mue, $model->Des_Mue, $model->Med_Mue, $model->Col_Mue, $model->Pro_Mue, $model->Pco_Mue, $model->Uti_Mue, $model->Pre_Mue, $model->Im1_Mue, $model->Im2_Mue, $model->Im3_Mue, $model->Cat_Mue, $model->Sca_Mue);
+            Consultas::insertProducto($model->Cod_Mue, $model->Nom_Mue, $model->Des_Mue, $model->Med_Mue, $model->Col_Mue, $model->Pro_Mue, $model->Pco_Mue, $model->Uti_Mue, $model->Pre_Mue, $model->Pr2_Mue, $model->Im1_Mue, $model->Im2_Mue, $model->Im3_Mue, $model->Cat_Mue, $model->Sca_Mue);
         else:
             $res = array(
                 'error' => true,

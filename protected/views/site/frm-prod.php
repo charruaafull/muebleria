@@ -124,6 +124,14 @@
                                        class="form-control">
                             </div>
                         </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>Precio 2</label>
+                                <input name="Pr2_Mue" id="Pr2_Mue"
+                                       value="<?php echo (isset($pro)) ? $pro['Pr2_Mue'] : ''; ?>" type="text"
+                                       class="form-control">
+                            </div>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-4">
