@@ -142,8 +142,8 @@ class SiteController extends Controller
             $this->render('frm-prod', array('pro' => $pro));
         else:
             $prod = Consultas::getProductos();
-            $Cod_Mue = sistema::generarCodigo();
-            $this->render('frm-prod', array('Cod_Mue' => $Cod_Mue, 'prodL' => $prod));
+           // $Cod_Mue = sistema::generarCodigo();
+            $this->render('frm-prod', array('prodL' => $prod));
         endif;
     }
 

@@ -16,8 +16,9 @@
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label>Código</label>
-                                <input type="text" name="Cod_Mue" id="Cod_Mue" readonly
-                                       value="<?php echo (isset($pro)) ? $pro['Cod_Mue'] : $Cod_Mue; ?>"
+                                <input type="text" name="Cod_Mue"
+                                       id="Cod_Mue" <?php echo (isset($pro)) ? 'readonly' : ''; ?>
+                                       value="<?php echo (isset($pro)) ? $pro['Cod_Mue'] : ''; ?>"
                                        class="form-control">
                             </div>
                         </div>
@@ -51,7 +52,8 @@
                                     if (isset($pro)):
                                         $sca = Consultas::getSubcategorias($pro['Cat_Mue']);
                                         foreach ($sca as $sc): ?>
-                                            <option <?php echo ($pro['Sca_Mue'] == $sc['Id_Sub']) ? 'selected' : '';  ?> value="<?php echo $sc['Id_Sub']; ?>"><?php echo $sc['Nom_Sub']; ?></option>
+                                            <option <?php echo ($pro['Sca_Mue'] == $sc['Id_Sub']) ? 'selected' : ''; ?>
+                                                    value="<?php echo $sc['Id_Sub']; ?>"><?php echo $sc['Nom_Sub']; ?></option>
                                         <?php endforeach;
                                     endif;
                                     ?>
