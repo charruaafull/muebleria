@@ -47,7 +47,7 @@
                     </a>
                 </li>
 
-                <li class="nav-item" name="AddProductos">
+                <li class="nav-item" name="AddMaderas">
                     <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/maderas/index">
                         <i class="menu-icon mdi mdi-chart-bar"></i>
                         <span class="menu-title">Sección Maderas</span>

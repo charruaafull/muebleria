@@ -14,24 +14,6 @@ $(function () {
         hideAllErrors();
     });
 
-    $('[tag=lnk-del]').click(function () {
-        Id_Mad = $(this).attr('nroId');
-        var cod = $(this).attr('cod');
-        if (window.confirm("¿Desea eliminar la madera " + cod + "?")) {
-            $.ajax({
-                url: 'DeleteMadera',
-                data: {Id_Mad: Id_Mad},
-                type: 'post',
-                dataType: 'json',
-                success: function (data) {
-                    if (data) {
-                        location.reload();
-                    }
-                }
-            })
-        }
-    });
-
     $('#tbl-mad').DataTable({
         dom: 'lBfrtip',
         buttons: [
@@ -77,13 +59,5 @@ $(function () {
             }
         });
     }
-
-    $('[tag=lnk-img]').click(function (e) {
-        lnk = $(this).attr('lnk');
-        $('.modal-title').html('Imágen');
-        $('#img-mod').attr('src', lnk);
-        $('#myModal').modal();
-        e.preventDefault();
-    });
 
 });

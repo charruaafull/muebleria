@@ -2,169 +2,74 @@
 !(@dir(Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('application.views.maderas.index') . '.js'))) ? Yii::app()->assetManager->publish(Yii::getPathOfAlias('application.views.maderas') . '/index.js') : null;
 ?>
 
-
 <div class="row">
     <div class="col-lg-12">
         <div class="card">
             <div class="card-header">
-                Nuevo Producto
+                Nueva Madera
             </div>
             <div class="card-body">
-                <form id="frm-prd">
-                    <input type="hidden" name="Id_Mue" id="Id_Mue" readonly
-                           value="<?php echo (isset($pro)) ? $pro['Id_Mue'] : ''; ?>">
+                <form id="frm-mad">
+                    <input type="hidden" name="Id_Mad" id="Id_Mad" readonly
+                           value="<?php echo (isset($pro)) ? $pro['Id_Mad'] : ''; ?>">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <div class="form-group">
                                 <label>Código</label>
-                                <input type="text" name="Cod_Mue"
-                                       id="Cod_Mue" <?php echo (isset($pro)) ? 'readonly' : ''; ?>
-                                       value="<?php echo (isset($pro)) ? $pro['Cod_Mue'] : ''; ?>"
+                                <input type="text" name="Cod_Mad"
+                                       id="Cod_Mad" <?php echo (isset($pro)) ? 'readonly' : ''; ?>
+                                       value="<?php echo (isset($pro)) ? $pro['Cod_Mad'] : ''; ?>"
                                        class="form-control">
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <div class="form-group">
-                                <label>Nombre</label>
-                                <input type="text" name="Nom_Mue" id="Nom_Mue" class="form-control"
-                                       value="<?php echo (isset($pro)) ? $pro['Nom_Mue'] : ''; ?>">
+                                <label>Imágen</label>
+                                <input name="Img_Mad" id="Img_Mad"
+                                       value="<?php echo (isset($pro)) ? $pro['Img_Mad'] : ''; ?>" type="file"
+                                       class="form-control">
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="form-group">
-                                <label>Categoría</label>
-                                <select name="Cat_Mue" id="Cat_Mue" type="text" class="form-control">
-                                    <option value="">Seleccione una opción</option>
-                                    <option <?php echo (isset($pro) && $pro['Cat_Mue'] == 1) ? 'selected' : ''; ?>
-                                            value="1">Mueblería
-                                    </option>
-                                    <option <?php echo (isset($pro) && $pro['Cat_Mue'] == 2) ? 'selected' : ''; ?>
-                                            value="2">Ferretería
-                                    </option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <div class="form-group">
                                 <label>Subcategoría</label>
-                                <select name="Sca_Mue" id="Sca_Mue" type="text" class="form-control">
-                                    <option value="">Seleccione una opción</option>
-                                    <?php
-                                    if (isset($pro)):
-                                        $sca = Consultas::getSubcategorias($pro['Cat_Mue']);
-                                        foreach ($sca as $sc): ?>
-                                            <option <?php echo ($pro['Sca_Mue'] == $sc['Id_Sub']) ? 'selected' : ''; ?>
-                                                    value="<?php echo $sc['Id_Sub']; ?>"><?php echo $sc['Nom_Sub']; ?></option>
-                                        <?php endforeach;
-                                    endif;
-                                    ?>
-                                    <!--<option <?php /*echo (isset($pro) && $pro['Sca_Mue'] == 1) ? 'selected' : ''; */ ?> value="1">Subcategoría 1</option>
-                                    <option <?php /*echo (isset($pro) && $pro['Sca_Mue'] == 2) ? 'selected' : ''; */ ?> value="2">Subcategoría 2</option>
-                                    <option <?php /*echo (isset($pro) && $pro['Sca_Mue'] == 3) ? 'selected' : ''; */ ?> value="3">Subcategoría 3</option>-->
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="form-group">
-                                <label>Descripción</label>
-                                <textarea name="Des_Mue" id="Des_Mue"
-                                          class="form-control"><?php echo (isset($pro)) ? trim($pro['Des_Mue']) : ''; ?></textarea>
+                                <input type="text" name="Sub_Mad" id="Sub_Mad" class="form-control"
+                                       value="<?php echo (isset($pro)) ? $pro['Sub_Mad'] : ''; ?>">
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="form-group">
-                                <label>Medidas</label>
-                                <input name="Med_Mue" id="Med_Mue"
-                                       value="<?php echo (isset($pro)) ? $pro['Med_Mue'] : ''; ?>" type="text"
-                                       class="form-control">
+                                <label>Sub - Subcategoría</label>
+                                <input type="text" name="Ssc_Mad" id="Ssc_Mad" class="form-control"
+                                       value="<?php echo (isset($pro)) ? $pro['Ssc_Mad'] : ''; ?>">
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="form-group">
-                                <label>Color</label>
-                                <input name="Col_Mue" id="Col_Mue"
-                                       value="<?php echo (isset($pro)) ? $pro['Col_Mue'] : ''; ?>" type="text"
-                                       class="form-control">
+                                <label>Tipo de Cepillado</label>
+                                <input type="text" name="Tce_Mad" id="Tce_Mad" class="form-control"
+                                       value="<?php echo (isset($pro)) ? $pro['Tce_Mad'] : ''; ?>">
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="form-group">
-                                <label>Proveedor</label>
-                                <select name="Pro_Mue" id="Pro_Mue"
-                                        value="<?php echo (isset($pro)) ? $pro['Pro_Mue'] : ''; ?>"
-                                        class="form-control">
-                                    <?php
-                                    $prov = Consultas::getProveedores();
-                                    foreach ($prov as $prv): ?>
-                                        <option value="<?php echo $prv['Id_Prov']; ?>"><?php echo $prv['Nom_Prov']; ?></option>
-                                    <?php endforeach; ?>
-                                </select>
+                                <label>Subtipo de Cepillado</label>
+                                <input type="text" name="Stc_Mad" id="Stc_Mad" class="form-control"
+                                       value="<?php echo (isset($pro)) ? $pro['Stc_Mad'] : ''; ?>">
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="form-group">
-                                <label>Precio Costo</label>
-                                <input name="Pco_Mue" id="Pco_Mue"
-                                       value="<?php echo (isset($pro)) ? $pro['Pco_Mue'] : ''; ?>" type="text"
-                                       class="form-control">
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="form-group">
-                                <label>% Utilidad</label>
-                                <input name="Uti_Mue" id="Uti_Mue"
-                                       value="<?php echo (isset($pro)) ? $pro['Uti_Mue'] : ''; ?>" type="text"
-                                       class="form-control">
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="form-group">
-                                <label>Otra % Utilidad</label>
-                                <input name="Out_Mue" id="Out_Mue"
-                                       value="<?php echo (isset($pro)) ? $pro['Out_Mue'] : ''; ?>" type="text"
-                                       class="form-control">
+                                <label>Precio de Carpintero</label>
+                                <input type="text" name="Prc_Mad" id="Prc_Mad" class="form-control"
+                                       value="<?php echo (isset($pro)) ? $pro['Prc_Mad'] : ''; ?>">
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="form-group">
                                 <label>Precio Particular</label>
-                                <input name="Pre_Mue" id="Pre_Mue"
-                                       value="<?php echo (isset($pro)) ? $pro['Pre_Mue'] : ''; ?>" type="text"
-                                       class="form-control">
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="form-group">
-                                <label>Precio Carpitero</label>
-                                <input name="Pr2_Mue" id="Pr2_Mue"
-                                       value="<?php echo (isset($pro)) ? $pro['Pr2_Mue'] : ''; ?>" type="text"
-                                       class="form-control">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="form-group">
-                                <label>Imágen 1</label>
-                                <input name="Im1_Mue" id="Im1_Mue"
-                                       value="<?php echo (isset($pro)) ? $pro['Im1_Mue'] : ''; ?>" type="file"
-                                       class="form-control">
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="form-group">
-                                <label>Imágen 2</label>
-                                <input name="Im2_Mue" id="Im2_Mue"
-                                       value="<?php echo (isset($pro)) ? $pro['Im2_Mue'] : ''; ?>" type="file"
-                                       class="form-control">
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="form-group">
-                                <label>Imágen 3</label>
-                                <input name="Im3_Mue" id="Im3_Mue"
-                                       value="<?php echo (isset($pro)) ? $pro['Im3_Mue'] : ''; ?>" type="file"
-                                       class="form-control">
+                                <input type="text" name="Prp_Mad" id="Prp_Mad" class="form-control"
+                                       value="<?php echo (isset($pro)) ? $pro['Prp_Mad'] : ''; ?>">
                             </div>
                         </div>
                     </div>
@@ -173,13 +78,104 @@
             <div class="card-footer">
                 <div class="row">
                     <div class="col-lg-12 text-right">
-                        <button id="btn-productos" class="btn btn-success">Confirmar</button>
+                        <button id="btn-maderas" class="btn btn-success">Confirmar</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<?php if (isset($res) && count($res) > 0): ?>
+    <br>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">
+                    Listado de Maderas
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="table-responsive">
+                                <table id="tbl-mad" class="table">
+                                    <thead class="bg-grey">
+                                    <tr>
+                                        <th>Acciones</th>
+                                        <th>Código</th>
+                                        <th>Subcategoría</th>
+                                        <th>Sub-Subcategoría</th>
+                                        <th>Tipo de cepillado</th>
+                                        <th>Subtipo de cepillado</th>
+                                        <th>Precio Carpintero</th>
+                                        <th>Precio Particular</th>
+                                        <th>Imágen</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <?php foreach ($res as $pro): ?>
+                                        <tr>
+                                            <td class="text-center">
+                                                <a class="text-black"
+                                                   href="./Index?upd=<?php echo $pro['Id_Mad'] ?>"><i
+                                                            class="fa fa-edit"></i></a>
+                                                <a href="#" class="text-black"  cod="<?php echo $pro['Cod_Mad']; ?>"
+                                                   tag="lnk-del" nroId="<?php echo $pro['Id_Mad']; ?>"><i
+                                                            class="fa fa-trash-o"></i></a>
+                                            </td>
+                                            <td><?php echo $pro['Cod_Mad']; ?></td>
+                                            <td><?php echo $pro['Sub_Mad']; ?></td>
+                                            <td><?php echo $pro['Ssc_Mad']; ?></td>
+                                            <td><?php echo $pro['Tce_Mad']; ?></td>
+                                            <td><?php echo $pro['Stc_Mad']; ?></td>
+                                            <td><?php echo $pro['Prc_Mad']; ?></td>
+                                            <td><?php echo $pro['Prp_Mad']; ?></td>
+                                            <td>
+                                                <?php if ($pro['Img_Mad']): ?>
+                                                    <a class="text-black" href="#"
+                                                       lnk="<?php echo Yii::app()->baseUrl . '/protected/runtime/productos/' . $pro['Img_Mad']; ?>"
+                                                       tag="lnk-img"><i class="fa fa-picture-o"></i></a>
+                                                <?php endif; ?>
+                                            </td>
+                                        </tr>
+                                    <?php endforeach; ?>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<?php endif; ?>
+
+
+<!-- The Modal -->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h6 class="modal-title"></h6>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <img id="img-mod" src="" class="img-fluid">
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
 
 <script type="text/javascript"
         src="<?php echo Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('application.views.maderas.index') . '.js') ?>">

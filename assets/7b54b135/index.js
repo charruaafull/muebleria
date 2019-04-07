@@ -15,7 +15,7 @@ $(function () {
     });
 
     $('[tag=lnk-del]').click(function () {
-        Id_Mad = $(this).attr('nroId');
+        Id_Mue = $(this).attr('nroId');
         var cod = $(this).attr('cod');
         if (window.confirm("¿Desea eliminar la madera " + cod + "?")) {
             $.ajax({

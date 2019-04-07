@@ -308,6 +308,21 @@ class SiteController extends Controller
             $imgInfo = pathinfo($_FILES["Im1_Mue"] ['name']);
             $imgName1 = $imgInfo['basename'];
             $model->Im1_Mue = $imgName1;
+        endif;
+
+        if ($_FILES["Im2_Mue"]):
+            $imgInfo = pathinfo($_FILES["Im2_Mue"] ['name']);
+            $imgName2 = $imgInfo['basename'];
+            $model->Im2_Mue = $imgName2;
+        endif;
+
+        if ($_FILES["Im3_Mue"]):
+            $imgInfo = pathinfo($_FILES["Im3_Mue"] ['name']);
+            $imgName3 = $imgInfo['basename'];
+            $model->Im3_Mue = $imgName3;
+        endif;
+
+        if ($model->validate()):
 
             if ($model->Im1_Mue):
                 $imgName1 = $model->Cod_Mue . '-1.jpg';
@@ -317,12 +332,6 @@ class SiteController extends Controller
                     $nombre = str_replace('.jpg', '', $norig);
                 endif;
             endif;
-        endif;
-
-        if ($_FILES["Im2_Mue"]):
-            $imgInfo = pathinfo($_FILES["Im2_Mue"] ['name']);
-            $imgName2 = $imgInfo['basename'];
-            $model->Im2_Mue = $imgName2;
 
             if ($model->Im2_Mue):
                 $imgName2 = $model->Cod_Mue . '-2.jpg';
@@ -332,12 +341,6 @@ class SiteController extends Controller
                     $nombre = str_replace('.jpg', '', $norig);
                 endif;
             endif;
-        endif;
-
-        if ($_FILES["Im3_Mue"]):
-            $imgInfo = pathinfo($_FILES["Im3_Mue"] ['name']);
-            $imgName3 = $imgInfo['basename'];
-            $model->Im3_Mue = $imgName3;
 
             if ($model->Im3_Mue):
                 $imgName3 = $model->Cod_Mue . '-3.jpg';
@@ -347,9 +350,7 @@ class SiteController extends Controller
                     $nombre = str_replace('.jpg', '', $norig);
                 endif;
             endif;
-        endif;
 
-        if ($model->validate()):
             $res = array(
                 'error' => false,
             );

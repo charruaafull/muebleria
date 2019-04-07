@@ -26,7 +26,10 @@ class MaderasController extends Controller
             ),
             array('allow',
                 'actions' => array(
-                    'Index'
+                    'Index',
+                    'InsertarMadera',
+                    'UpdateMadera',
+                    'DeleteMadera'
                 ),
                 'expression' => "Yii::app()->session['USU']", // Yii::app()->session['USU']['Per_Usu']==1
             ),
@@ -39,7 +42,100 @@ class MaderasController extends Controller
 
     public function actionIndex()
     {
-        $this->render('index');
+        $Id_Mad = Yii::app()->request->getParam('upd');
+        if (isset($Id_Mad)):
+            $pro = CrudMaderas::getMadera($Id_Mad);
+            $this->render('index', array('pro' => $pro));
+        else:
+            $res = CrudMaderas::getMaderas();
+            $this->render('index', array('res' => $res));
+        endif;
+    }
+
+    public function actionInsertarMadera()
+    {
+
+        $model = new frm_maderas();
+        $model->Cod_Mad = Yii::app()->request->getParam('Cod_Mad');
+        $model->Sub_Mad = Yii::app()->request->getParam('Sub_Mad');
+        $model->Ssc_Mad = Yii::app()->request->getParam('Ssc_Mad');
+        $model->Tce_Mad = Yii::app()->request->getParam('Tce_Mad');
+        $model->Stc_Mad = Yii::app()->request->getParam('Stc_Mad');
+        $model->Prc_Mad = Yii::app()->request->getParam('Prc_Mad');
+        $model->Prp_Mad = Yii::app()->request->getParam('Prp_Mad');
+
+        $directorio = Yii::app()->getBasePath() . '/runtime/productos/';
+
+        if ($_FILES["Img_Mad"]):
+            $imgInfo = pathinfo($_FILES["Img_Mad"] ['name']);
+            $imgName1 = $imgInfo['basename'];
+            $model->Img_Mad = $imgName1;
+
+            if ($model->Img_Mad):
+                $imgName1 = $model->Cod_Mad . '-1.jpg';
+                $model->Img_Mad = $imgName1;
+            endif;
+        endif;
+
+        if ($model->validate()):
+            if (move_uploaded_file($_FILES['Img_Mad']['tmp_name'], $directorio . $imgName1)):
+                $norig = strtolower($_FILES['Img_Mad']['name']);
+                $nombre = str_replace('.jpg', '', $norig);
+            endif;
+            $res = array(
+                'error' => false,
+            );
+            CrudMaderas::insert($model->Cod_Mad, $model->Img_Mad, $model->Sub_Mad, $model->Ssc_Mad, $model->Tce_Mad, $model->Stc_Mad, $model->Prc_Mad, $model->Prp_Mad);
+        else:
+            $res = array(
+                'error' => true,
+                'info' => $model->errors,
+            );
+        endif;
+
+        echo CJSON::encode($res);
+    }
+
+    public function actionDeleteMadera()
+    {
+        $Id_Mad = Yii::app()->request->getParam('Id_Mad');
+        if ($Id_Mad):
+            $prd = CrudMaderas::getMadera($Id_Mad);
+            $prod = CrudMaderas::delete($Id_Mad);
+            if ($prd['Img_Mad']):
+                unlink(Yii::app()->getBasePath() . '/runtime/productos/' . $prd['Img_Mad']);
+            endif;
+            echo CJSON::encode(true);
+        endif;
+    }
+
+    public function actionUpdateMadera()
+    {
+
+        $model = new frm_maderas();
+        $id = Yii::app()->request->getParam('Id_Mad');
+        $model->Cod_Mad = Yii::app()->request->getParam('Cod_Mad');
+        $model->Img_Mad = Yii::app()->request->getParam('Img_Mad');
+        $model->Sub_Mad = Yii::app()->request->getParam('Sub_Mad');
+        $model->Ssc_Mad = Yii::app()->request->getParam('Ssc_Mad');
+        $model->Tce_Mad = Yii::app()->request->getParam('Tce_Mad');
+        $model->Stc_Mad = Yii::app()->request->getParam('Stc_Mad');
+        $model->Prc_Mad = Yii::app()->request->getParam('Prc_Mad');
+        $model->Prp_Mad = Yii::app()->request->getParam('Prp_Mad');
+
+        if ($model->validate()):
+            $res = array(
+                'error' => false,
+            );
+            CrudMaderas::update($id, $model->Img_Mad, $model->Sub_Mad, $model->Ssc_Mad, $model->Tce_Mad, $model->Stc_Mad, $model->Prc_Mad, $model->Prp_Mad);
+        else:
+            $res = array(
+                'error' => true,
+                'info' => $model->errors,
+            );
+        endif;
+
+        echo CJSON::encode($res);
     }
 
 }
