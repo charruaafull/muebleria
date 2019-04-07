@@ -39,6 +39,7 @@
 
     <?php
     $action = Yii::app()->controller->action->id;
+    $controller = Yii::app()->controller->id;
     ?>
 
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
@@ -47,7 +48,7 @@
 <body>
 
 <?php
-if ($action != 'login' && $action != 'index'):
+if ($action != 'login' && ($action != 'index' || $controller == 'maderas')):
 require Yii::getPathOfAlias('application.views.layouts.header') . '.php'; ?>
 <div class="main-panel">
     <div class="content-wrapper">

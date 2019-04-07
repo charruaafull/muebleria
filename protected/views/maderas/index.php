@@ -1,6 +1,7 @@
 <?php
-!(@dir(Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('application.views.site.frm-prod') . '.js'))) ? Yii::app()->assetManager->publish(Yii::getPathOfAlias('application.views.site') . '/frm-prod.js') : null;
+!(@dir(Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('application.views.maderas.index') . '.js'))) ? Yii::app()->assetManager->publish(Yii::getPathOfAlias('application.views.maderas') . '/index.js') : null;
 ?>
+
 
 <div class="row">
     <div class="col-lg-12">
@@ -180,120 +181,6 @@
     </div>
 </div>
 
-<?php if (isset($prodL) && count($prodL) > 0): ?>
-    <br>
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="card">
-                <div class="card-header">
-                    Listado de Productos
-                </div>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="table-responsive">
-                                <table id="tbl-prod" class="table">
-                                    <thead class="bg-grey">
-                                    <tr>
-                                        <th>Acciones</th>
-                                        <th>Código</th>
-                                        <th>Nombre</th>
-                                        <th>Categoría</th>
-                                        <th>Subcategoría</th>
-                                        <th>Descripción</th>
-                                        <th>Medidas</th>
-                                        <th>Color</th>
-                                        <th>Proveedor</th>
-                                        <th>Precio Costo</th>
-                                        <th>% Utilidad</th>
-                                        <th>Otra % Utilidad</th>
-                                        <th>Precio Particular</th>
-                                        <th>Precio Carpintero</th>
-                                        <th>Imagen</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <?php foreach ($prodL as $pro): ?>
-                                        <tr>
-                                            <td class="text-center">
-                                                <a class="text-black"
-                                                   href="./Productos?upd=<?php echo $pro['Id_Mue'] ?>"><i
-                                                            class="fa fa-edit"></i></a>
-                                                <a href="#" class="text-black" nom="<?php echo $pro['Nom_Mue']; ?>"
-                                                   tag="lnk-del" nroId="<?php echo $pro['Id_Mue']; ?>"><i
-                                                            class="fa fa-trash-o"></i></a>
-                                            </td>
-                                            <td><?php echo $pro['Cod_Mue']; ?></td>
-                                            <td><?php echo $pro['Nom_Mue']; ?></td>
-                                            <td><?php echo ($pro['Cat_Mue'] == 1) ? 'Mueblería' : 'Ferretería'; ?></td>
-                                            <td><?php echo $pro['Nom_Sub']; ?></td>
-                                            <td><?php echo $pro['Des_Mue']; ?></td>
-                                            <td><?php echo $pro['Med_Mue']; ?></td>
-                                            <td><?php echo $pro['Col_Mue']; ?></td>
-                                            <td><?php echo $pro['Nom_Prov']; ?></td>
-                                            <td><?php echo $pro['Pco_Mue']; ?></td>
-                                            <td><?php echo $pro['Uti_Mue']; ?></td>
-                                            <td><?php echo $pro['Out_Mue']; ?></td>
-                                            <td><?php echo $pro['Pre_Mue']; ?></td>
-                                            <td><?php echo $pro['Pr2_Mue']; ?></td>
-                                            <td class="text-center">
-                                                <?php if ($pro['Im1_Mue']): ?>
-                                                    <a class="text-black" href="#" nro="1"
-                                                       nom="<?php echo $pro['Nom_Mue']; ?>"
-                                                       lnk="<?php echo Yii::app()->baseUrl . '/protected/runtime/productos/' . $pro['Im1_Mue']; ?>"
-                                                       tag="lnk-img"><i class="fa fa-picture-o"></i></a>
-                                                <?php endif; ?>
-                                                <?php if ($pro['Im2_Mue']): ?>
-                                                    <a class="text-black" href="#" nro="2"
-                                                       nom="<?php echo $pro['Nom_Mue']; ?>"
-                                                       lnk="<?php echo Yii::app()->baseUrl . '/protected/runtime/productos/' . $pro['Im2_Mue']; ?>"
-                                                       tag="lnk-img"><i class="fa fa-picture-o"></i></a>
-                                                <?php endif; ?>
-                                                <?php if ($pro['Im3_Mue']): ?>
-                                                    <a class="text-black" href="#" nro="3"
-                                                       nom="<?php echo $pro['Nom_Mue']; ?>"
-                                                       lnk="<?php echo Yii::app()->baseUrl . '/protected/runtime/productos/' . $pro['Im3_Mue']; ?>"
-                                                       tag="lnk-img"><i class="fa fa-picture-o"></i></a>
-                                                <?php endif; ?>
-                                        </tr>
-                                    <?php endforeach; ?>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<?php endif; ?>
-
-
-<!-- The Modal -->
-<div class="modal fade" id="myModal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-
-            <!-- Modal Header -->
-            <div class="modal-header">
-                <h6 class="modal-title"></h6>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-
-            <!-- Modal body -->
-            <div class="modal-body">
-                <img id="img-mod" src="" class="img-fluid">
-            </div>
-
-            <!-- Modal footer -->
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-            </div>
-
-        </div>
-    </div>
-</div>
-
 <script type="text/javascript"
-        src="<?php echo Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('application.views.site.frm-prod') . '.js') ?>">
+        src="<?php echo Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('application.views.maderas.index') . '.js') ?>">
 </script>

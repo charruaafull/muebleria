@@ -19,7 +19,7 @@ class SiteController extends Controller
                 'actions' => array(
                     'Index',
                     'Login',
-                    'AjaxValidaLogin'
+                    'AjaxValidaLogin',
                 ),
                 'users' => array('*'),
             ),
@@ -117,7 +117,7 @@ class SiteController extends Controller
     public function actionIndex()
     {
         if (isset(Yii::app()->session['USU'])):
-            $this->redirect('ListarProductos');
+            $this->redirect('./site/ListarProductos');
         endif;
         $this->pageTitle = 'Login | ' . Yii::app()->name;
         $this->render('index');
@@ -126,7 +126,7 @@ class SiteController extends Controller
     public function actionLogin()
     {
         if (isset(Yii::app()->session['USU'])):
-            $this->redirect('ListarProductos');
+            $this->redirect('./site/ListarProductos');
         endif;
         $this->pageTitle = 'Login | ' . Yii::app()->name;
         $this->render('index');
@@ -298,6 +298,7 @@ class SiteController extends Controller
         $model->Pro_Mue = Yii::app()->request->getParam('Pro_Mue');
         $model->Pco_Mue = Yii::app()->request->getParam('Pco_Mue');
         $model->Uti_Mue = Yii::app()->request->getParam('Uti_Mue');
+        $model->Out_Mue = Yii::app()->request->getParam('Out_Mue');
         $model->Pre_Mue = Yii::app()->request->getParam('Pre_Mue');
         $model->Pr2_Mue = Yii::app()->request->getParam('Pr2_Mue');
 
@@ -352,7 +353,7 @@ class SiteController extends Controller
             $res = array(
                 'error' => false,
             );
-            Consultas::insertProducto($model->Cod_Mue, $model->Nom_Mue, $model->Des_Mue, $model->Med_Mue, $model->Col_Mue, $model->Pro_Mue, $model->Pco_Mue, $model->Uti_Mue, $model->Pre_Mue, $model->Pr2_Mue, $model->Im1_Mue, $model->Im2_Mue, $model->Im3_Mue, $model->Cat_Mue, $model->Sca_Mue);
+            Consultas::insertProducto($model->Cod_Mue, $model->Nom_Mue, $model->Des_Mue, $model->Med_Mue, $model->Col_Mue, $model->Pro_Mue, $model->Pco_Mue, $model->Uti_Mue, $model->Pre_Mue, $model->Pr2_Mue, $model->Im1_Mue, $model->Im2_Mue, $model->Im3_Mue, $model->Cat_Mue, $model->Sca_Mue,$model->Out_Mue);
         else:
             $res = array(
                 'error' => true,
@@ -427,7 +428,9 @@ class SiteController extends Controller
         $model->Pro_Mue = Yii::app()->request->getParam('Pro_Mue');
         $model->Pco_Mue = Yii::app()->request->getParam('Pco_Mue');
         $model->Uti_Mue = Yii::app()->request->getParam('Uti_Mue');
+        $model->Out_Mue = Yii::app()->request->getParam('Out_Mue');
         $model->Pre_Mue = Yii::app()->request->getParam('Pre_Mue');
+        $model->Pr2_Mue = Yii::app()->request->getParam('Pr2_Mue');
         /*$model->Im1_Mue = Yii::app()->request->getParam('Im1_Mue');
         $model->Im2_Mue = Yii::app()->request->getParam('Im2_Mue');
         $model->Im3_Mue = Yii::app()->request->getParam('Im3_Mue');*/
@@ -436,7 +439,7 @@ class SiteController extends Controller
             $res = array(
                 'error' => false,
             );
-            Consultas::updateProducto($id, $model->Nom_Mue, $model->Des_Mue, $model->Med_Mue, $model->Col_Mue, $model->Pro_Mue, $model->Pco_Mue, $model->Uti_Mue, $model->Pre_Mue/*, $model->Im1_Mue, $model->Im2_Mue, $model->Im3_Mue*/, $model->Cat_Mue, $model->Sca_Mue);
+            Consultas::updateProducto($id, $model->Nom_Mue, $model->Des_Mue, $model->Med_Mue, $model->Col_Mue, $model->Pro_Mue, $model->Pco_Mue, $model->Uti_Mue, $model->Pre_Mue,$model->Pr2_Mue/*, $model->Im1_Mue, $model->Im2_Mue, $model->Im3_Mue*/, $model->Cat_Mue, $model->Sca_Mue,$model->Out_Mue);
         else:
             $res = array(
                 'error' => true,

@@ -10,7 +10,7 @@ $(function () {
     $('#btn-login').click(function () {
         frm = $('#frm-login').serialize();
         $.ajax({
-            url: 'site/AjaxValidaLogin',
+            url: './AjaxValidaLogin',
             type: 'get',
             dataType: 'json',
             data: frm,

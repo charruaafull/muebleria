@@ -13,6 +13,7 @@ class frm_productos extends CFormModel
     public $Pro_Mue;
     public $Pco_Mue;
     public $Uti_Mue;
+    public $Out_Mue;
     public $Pre_Mue;
     public $Pr2_Mue;
     public $Im1_Mue;
@@ -63,6 +64,9 @@ class frm_productos extends CFormModel
             array('Uti_Mue', 'encodingString'),
             array('Uti_Mue', 'length', 'max' => 11),
 
+            array('Out_Mue', 'encodingString'),
+            array('Out_Mue', 'length', 'max' => 11),
+
             array('Pre_Mue', 'required'),
             array('Pre_Mue', 'encodingString'),
             array('Pre_Mue', 'length', 'max' => 11),
@@ -95,6 +99,7 @@ class frm_productos extends CFormModel
             'Pro_Mue' => 'Proveedor',
             'Pco_Mue' => 'Precio Costo',
             'Uti_Mue' => 'Utilidad %',
+            'Out_Mue' => 'Otra Utilidad %',
             'Pre_Mue' => 'Precio',
             'Pr2_Mue' => 'Precio',
             'Im1_Mue' => 'Imágen 1',

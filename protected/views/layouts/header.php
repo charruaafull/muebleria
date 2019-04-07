@@ -34,35 +34,42 @@
                     </div>
                 </li>
                 <li class="nav-item" name="inicio">
-                    <a class="nav-link"  href="index.php">
+                    <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/ListarProductos">
                         <i class="menu-icon mdi mdi-television"></i>
                         <span class="menu-title">Inicio</span>
                     </a>
                 </li>
 
                 <li class="nav-item" name="AddProductos">
-                    <a class="nav-link"  href="./Productos">
+                    <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/Productos">
                         <i class="menu-icon mdi mdi-chart-bar"></i>
-                        <span class="menu-title">Productos</span>
+                        <span class="menu-title">Sección Muebles</span>
+                    </a>
+                </li>
+
+                <li class="nav-item" name="AddProductos">
+                    <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/maderas/index">
+                        <i class="menu-icon mdi mdi-chart-bar"></i>
+                        <span class="menu-title">Sección Maderas</span>
                     </a>
                 </li>
 
                 <li class="nav-item" name="proveedores">
-                    <a class="nav-link"  href="./Proveedores">
+                    <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/Proveedores">
                         <i class="menu-icon mdi  mdi-account-multiple"></i>
                         <span class="menu-title">Proveedores</span>
                     </a>
                 </li>
 
                 <li class="nav-item" name="subcategorias">
-                    <a class="nav-link"  href="./Subcategorias">
+                    <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/Subcategorias">
                         <i class="menu-icon mdi mdi-format-list-bulleted"></i>
                         <span class="menu-title">Subcategorias</span>
                     </a>
                 </li>
 
                 <li class="nav-item" name="subcategorias">
-                    <a class="nav-link"  href="./logout">
+                    <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/logout">
                         <i class="menu-icon mdi  mdi-logout"></i>
                         <span class="menu-title">Salir</span>
                     </a>

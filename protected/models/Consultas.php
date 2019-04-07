@@ -82,7 +82,7 @@ class Consultas
         return sistema::getFila($sql);
     }
 
-    public static function insertProducto($Cod_Mue, $Nom_Mue, $Des_Mue, $Med_Mue, $Col_Mue, $Pro_Mue, $Pco_Mue, $Uti_Mue, $Pre_Mue, $Pr2_Mue, $Im1_Mue, $Im2_Mue, $Im3_Mue, $Cat_Mue, $Sca_Mue)
+    public static function insertProducto($Cod_Mue, $Nom_Mue, $Des_Mue, $Med_Mue, $Col_Mue, $Pro_Mue, $Pco_Mue, $Uti_Mue, $Pre_Mue, $Pr2_Mue, $Im1_Mue, $Im2_Mue, $Im3_Mue, $Cat_Mue, $Sca_Mue,$Out_Mue)
     {
         $sql = "Insert Into productos " .
             "(" .
@@ -100,6 +100,7 @@ class Consultas
             "Im2_Mue," .
             "Im3_Mue," .
             "Cat_Mue," .
+            "Out_Mue," .
             "Sca_Mue" .
             ") " .
             "VALUES " .
@@ -118,8 +119,10 @@ class Consultas
             "'$Im2_Mue'," .
             "'$Im3_Mue'," .
             "$Cat_Mue," .
+            "$Out_Mue," .
             "$Sca_Mue" .
             ")";
+
         return sistema::execute($sql);
     }
 
@@ -183,7 +186,7 @@ class Consultas
         return sistema::execute($sql);
     }
 
-    public static function updateProducto($id, $Nom_Mue, $Des_Mue, $Med_Mue, $Col_Mue, $Pro_Mue, $Pco_Mue, $Uti_Mue, $Pre_Mue/*, $Im1_Mue, $Im2_Mue, $Im3_Mue*/, $Cat_Mue, $Sca_Mue)
+    public static function updateProducto($id, $Nom_Mue, $Des_Mue, $Med_Mue, $Col_Mue, $Pro_Mue, $Pco_Mue, $Uti_Mue, $Pre_Mue,$Pr2_Mue/*, $Im1_Mue, $Im2_Mue, $Im3_Mue*/, $Cat_Mue, $Sca_Mue,$Out_Mue)
     {
         $sql = "Update productos Set " .
             "Nom_Mue = '$Nom_Mue'," .
@@ -194,7 +197,9 @@ class Consultas
             "Pco_Mue = $Pco_Mue," .
             "Uti_Mue = $Uti_Mue," .
             "Pre_Mue = $Pre_Mue," .
+            "Pr2_Mue = $Pr2_Mue," .
             "Cat_Mue = $Cat_Mue," .
+            "Out_Mue = $Out_Mue," .
             "Sca_Mue = $Sca_Mue " .
             /* "Im1_Mue = '$Im1_Mue'," .
              "Im2_Mue = '$Im2_Mue'," .

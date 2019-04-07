@@ -19515,3 +19515,1097 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
 ---
+2019/04/07 13:22:06 [error] [exception.CException] CException: La propiedad "CUrlManager"."enablePrettyUrl" no se encuentra definida. in C:\xampp\htdocs\echevarria\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\YiiBase.php(220): CComponent->__set('enablePrettyUrl', true)
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CModule.php(393): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(531): CModule->getComponent('urlManager')
+#3 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#6 {main}
+REQUEST_URI=/echevarria/index.php
+HTTP_REFERER=http://localhost/echevarria/ListarProductos
+---
+2019/04/07 13:26:14 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "ndex.php" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ndex.php')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/ndex.php?r=controller_name/action_name
+---
+2019/04/07 13:26:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "ListarProductos" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ListarProductos')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/ListarProductos
+---
+2019/04/07 13:27:36 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "AjaxValidaLogin" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('AjaxValidaLogin')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/AjaxValidaLogin?username=superadmin&password=admin
+HTTP_REFERER=http://localhost/echevarria/index.php?r=site/Productos
+---
+2019/04/07 13:27:37 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "AjaxValidaLogin" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('AjaxValidaLogin')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/AjaxValidaLogin?username=superadmin&password=admin
+HTTP_REFERER=http://localhost/echevarria/index.php?r=site/Productos
+---
+2019/04/07 13:27:41 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "AjaxValidaLogin" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('AjaxValidaLogin')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/AjaxValidaLogin?username=superadmin&password=admin
+HTTP_REFERER=http://localhost/echevarria/index.php?r=site/Productos
+---
+2019/04/07 13:27:43 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:27:47 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "AjaxValidaLogin" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('AjaxValidaLogin')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/AjaxValidaLogin?username=superadmin&password=admin
+HTTP_REFERER=http://localhost/echevarria/index.php?r=site/Productos
+---
+2019/04/07 13:28:07 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:28:12 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:29:44 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:29:47 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:29:52 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "AjaxValidaLogin" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('AjaxValidaLogin')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/AjaxValidaLogin?username=superadmin&password=admin
+HTTP_REFERER=http://localhost/echevarria/
+---
+2019/04/07 13:32:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:32:24 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:32:59 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:33:13 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:33:16 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:33:18 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "index.php" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index.php')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/index.php
+HTTP_REFERER=http://localhost/echevarria/site/Productos
+---
+2019/04/07 13:33:23 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:33:30 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:34:10 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "index.php" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index.php')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/index.php
+HTTP_REFERER=http://localhost/echevarria/site/ListarProductos
+---
+2019/04/07 13:34:16 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:34:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:34:29 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:34:40 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:34:50 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "index.php" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index.php')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/index.php
+HTTP_REFERER=http://localhost/echevarria/site/Productos?upd=38
+---
+2019/04/07 13:36:08 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:36:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "Index.php" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('Index.php')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('Index.php')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Index.php')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/Index.php
+HTTP_REFERER=http://localhost/echevarria/site/Productos?upd=38
+---
+2019/04/07 13:36:12 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:36:17 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:36:18 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:36:41 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:36:43 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:36:44 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:36:46 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:36:47 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:36:49 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:37:14 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:37:34 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "test1" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('test1')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('test1')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/test1')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/test1
+---
+2019/04/07 13:37:58 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "test1" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('test1')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('test1')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/test1')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/test1
+---
+2019/04/07 13:38:01 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "ListarProductos" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ListarProductos')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/ListarProductos
+---
+2019/04/07 13:38:09 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:38:11 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:38:12 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:38:14 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:38:18 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "AjaxValidaLogin" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('AjaxValidaLogin')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/AjaxValidaLogin?username=superadmin&password=admin
+HTTP_REFERER=http://localhost/echevarria/
+---
+2019/04/07 13:38:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "AjaxValidaLogin" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('AjaxValidaLogin')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/AjaxValidaLogin?username=superadmin&password=admin
+HTTP_REFERER=http://localhost/echevarria/
+---
+2019/04/07 13:38:23 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "AjaxValidaLogin" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('AjaxValidaLogin')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/AjaxValidaLogin?username=superadmin&password=admin
+HTTP_REFERER=http://localhost/echevarria/
+---
+2019/04/07 13:38:50 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:38:51 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "AjaxValidaLogin" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('AjaxValidaLogin')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/AjaxValidaLogin?username=&password=
+HTTP_REFERER=http://localhost/echevarria/
+---
+2019/04/07 13:39:05 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:39:09 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "ListarProductos" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ListarProductos')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/ListarProductos
+HTTP_REFERER=http://localhost/echevarria/
+---
+2019/04/07 13:39:28 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:39:33 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:39:38 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:39:41 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:40:06 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:40:10 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:41:29 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:43:48 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'Cod_Mue'. La sentencia SQL ejecutada fue: Insert Into productos (Cod_Mue,Nom_Mue,Des_Mue,Med_Mue,Col_Mue,Pro_Mue,Pco_Mue,Uti_Mue,Pre_Mue,Pr2_Mue,Im1_Mue,Im2_Mue,Im3_Mue,Cat_Mue,Sca_Mue) VALUES ('1','2','3','4','1',10,1,23,3,4,'','','',1,8).
+in C:\xampp\htdocs\echevarria\protected\models\sistema.php (30)
+in C:\xampp\htdocs\echevarria\protected\models\Consultas.php (124)
+in C:\xampp\htdocs\echevarria\protected\controllers\SiteController.php (355)
+2019/04/07 13:43:48 [error] [exception.CDbException] CDbException: CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'Cod_Mue'. The SQL statement executed was: Insert Into productos (Cod_Mue,Nom_Mue,Des_Mue,Med_Mue,Col_Mue,Pro_Mue,Pco_Mue,Uti_Mue,Pre_Mue,Pr2_Mue,Im1_Mue,Im2_Mue,Im3_Mue,Cat_Mue,Sca_Mue) VALUES ('1','2','3','4','1',10,1,23,3,4,'','','',1,8) in C:\xampp\htdocs\echevarria\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\protected\models\sistema.php(30): CDbCommand->execute()
+#1 C:\xampp\htdocs\echevarria\protected\models\Consultas.php(124): sistema::execute('Insert Into pro...')
+#2 C:\xampp\htdocs\echevarria\protected\controllers\SiteController.php(355): Consultas::insertProducto('1', '2', '3', '4', '1', '10', '1', '23', '3', '4', '', '', '', '1', '8')
+#3 C:\xampp\htdocs\echevarria\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionInsertarProducto()
+#4 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('InsertarProduct...')
+#13 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/InsertarPr...')
+#14 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#16 {main}
+REQUEST_URI=/echevarria/site/InsertarProducto
+HTTP_REFERER=http://localhost/echevarria/site/Productos
+---
+2019/04/07 13:44:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:44:24 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:45:06 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:45:15 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:46:41 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:46:53 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:46:59 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:46:59 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "site" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Lista...')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/site/ListarProductos
+HTTP_REFERER=http://localhost/echevarria/site/Subcategorias
+---
+2019/04/07 13:47:02 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:47:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "site" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Lista...')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/site/ListarProductos
+HTTP_REFERER=http://localhost/echevarria/site/Subcategorias
+---
+2019/04/07 13:47:10 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:47:13 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:47:15 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:47:16 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:47:17 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "site" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Lista...')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/site/ListarProductos
+HTTP_REFERER=http://localhost/echevarria/site/Subcategorias
+---
+2019/04/07 13:47:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:48:38 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:48:40 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:48:42 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 13:48:45 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "ListarProductos" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ListarProductos')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/ListarProductos
+HTTP_REFERER=http://localhost/echevarria/
+---
+2019/04/07 13:48:51 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 17:30:56 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "ListarProductos" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ListarProductos')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/ListarProductos
+---
+2019/04/07 17:31:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "ListarProductos" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ListarProductos')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/ListarProductos
+---
+2019/04/07 17:32:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "Productos" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Productos')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/Productos
+HTTP_REFERER=http://localhost/echevarria/ListarProductos
+---
+2019/04/07 17:32:38 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "logout" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('logout')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/logout
+HTTP_REFERER=http://localhost/echevarria/ListarProductos
+---
+2019/04/07 17:32:41 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "logout" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('logout')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/logout
+---
+2019/04/07 17:32:43 [error] [exception.CException] CException: SiteController no ha podido encontrar la vista "ListarProductos" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(782): CController->renderPartial('ListarProductos', NULL, true)
+#1 C:\xampp\htdocs\echevarria\protected\controllers\SiteController.php(120): CController->render('ListarProductos')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#15 {main}
+REQUEST_URI=/echevarria/
+---
+2019/04/07 17:34:06 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "list-prod" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('list-prod')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('list-prod')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/list-prod')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/list-prod
+---
+2019/04/07 17:34:11 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "logout" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('logout')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/logout
+---
+2019/04/07 17:34:14 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "list-prod" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('list-prod')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('list-prod')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/list-prod')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/list-prod
+---
+2019/04/07 17:34:18 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "list-prod" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('list-prod')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('list-prod')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/list-prod')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/list-prod
+---
+2019/04/07 17:34:28 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "list-prod" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('list-prod')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('list-prod')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/list-prod')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/list-prod
+---
+2019/04/07 17:34:43 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "list-prod" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('list-prod')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('list-prod')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/list-prod')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/list-prod
+---
+2019/04/07 17:35:02 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "list-prod" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('list-prod')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('list-prod')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/list-prod')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/list-prod
+---
+2019/04/07 17:35:06 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "ListarProductos" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ListarProductos')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/ListarProductos
+---
+2019/04/07 17:35:41 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "ListarProductos" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ListarProductos')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/ListarProductos
+HTTP_REFERER=http://localhost/echevarria/site
+---
+2019/04/07 17:40:05 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "ListarProductos" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ListarProductos')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/ListarProductos
+HTTP_REFERER=http://localhost/echevarria/site
+---
+2019/04/07 17:41:23 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "site" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Lista...')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/site/ListarProductos
+HTTP_REFERER=http://localhost/echevarria/site/Productos
+---
+2019/04/07 17:41:37 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "site" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Lista...')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/site/ListarProductos
+HTTP_REFERER=http://localhost/echevarria/site/Productos
+---
+2019/04/07 17:58:14 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "testdrive/index.php" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('testdrive/index...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/testdrive/index.php?r=gii.
+---
+2019/04/07 17:58:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "testdrive/gii" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('testdrive/gii')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/testdrive/gii
+---
+2019/04/07 17:59:27 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "index.php" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index.php')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/index.php
+HTTP_REFERER=http://localhost/echevarria/site/Productos
+---
+2019/04/07 18:07:17 [error] [exception.CException] CException: La propiedad "frm_productos"."Out_Mue" no se encuentra definida. in C:\xampp\htdocs\echevarria\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\protected\controllers\SiteController.php(301): CComponent->__set('Out_Mue', '99')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionInsertarProducto()
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('InsertarProduct...')
+#11 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/InsertarPr...')
+#12 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#14 {main}
+REQUEST_URI=/echevarria/site/InsertarProducto
+HTTP_REFERER=http://localhost/echevarria/site/Productos
+---
+2019/04/07 18:07:24 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 18:07:24 [error] [exception.CException] CException: La propiedad "frm_productos"."Out_Mue" no se encuentra definida. in C:\xampp\htdocs\echevarria\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\protected\controllers\SiteController.php(301): CComponent->__set('Out_Mue', '99')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionInsertarProducto()
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('InsertarProduct...')
+#11 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/InsertarPr...')
+#12 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#14 {main}
+REQUEST_URI=/echevarria/site/InsertarProducto
+HTTP_REFERER=http://localhost/echevarria/site/Productos
+---
+2019/04/07 18:07:45 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9' for key 'Cod_Mue'. La sentencia SQL ejecutada fue: Insert Into productos (Cod_Mue,Nom_Mue,Des_Mue,Med_Mue,Col_Mue,Pro_Mue,Pco_Mue,Uti_Mue,Pre_Mue,Pr2_Mue,Im1_Mue,Im2_Mue,Im3_Mue,Cat_Mue,Out_Mue,Sca_Mue) VALUES ('9','9','9','9','9',9,9,9,9,9,'','','',1,99,8).
+in C:\xampp\htdocs\echevarria\protected\models\sistema.php (30)
+in C:\xampp\htdocs\echevarria\protected\models\Consultas.php (126)
+in C:\xampp\htdocs\echevarria\protected\controllers\SiteController.php (356)
+2019/04/07 18:07:45 [error] [exception.CDbException] CDbException: CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9' for key 'Cod_Mue'. The SQL statement executed was: Insert Into productos (Cod_Mue,Nom_Mue,Des_Mue,Med_Mue,Col_Mue,Pro_Mue,Pco_Mue,Uti_Mue,Pre_Mue,Pr2_Mue,Im1_Mue,Im2_Mue,Im3_Mue,Cat_Mue,Out_Mue,Sca_Mue) VALUES ('9','9','9','9','9',9,9,9,9,9,'','','',1,99,8) in C:\xampp\htdocs\echevarria\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\protected\models\sistema.php(30): CDbCommand->execute()
+#1 C:\xampp\htdocs\echevarria\protected\models\Consultas.php(126): sistema::execute('Insert Into pro...')
+#2 C:\xampp\htdocs\echevarria\protected\controllers\SiteController.php(356): Consultas::insertProducto('9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '', '', '', '1', '8', '99')
+#3 C:\xampp\htdocs\echevarria\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionInsertarProducto()
+#4 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\echevarria\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('InsertarProduct...')
+#13 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/InsertarPr...')
+#14 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#16 {main}
+REQUEST_URI=/echevarria/site/InsertarProducto
+HTTP_REFERER=http://localhost/echevarria/site/Productos
+---
+2019/04/07 18:08:22 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "index.php" solicitada. in C:\xampp\htdocs\echevarria\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index.php')
+#3 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/echevarria/site/index.php
+HTTP_REFERER=http://localhost/echevarria/site/Productos
+---
+2019/04/07 18:08:26 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 18:08:31 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 18:08:44 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 18:09:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 18:09:10 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 18:09:21 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 18:09:43 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 18:09:48 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 18:10:45 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/07 18:20:49 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "ListarProductos" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ListarProductos')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/ListarProductos
+HTTP_REFERER=http://localhost/echevarria/maderas
+---
+2019/04/07 18:20:55 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "Productos" in C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\echevarria\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Productos')
+#1 C:\xampp\htdocs\echevarria\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\echevarria\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/echevarria/Productos
+HTTP_REFERER=http://localhost/echevarria/maderas
+---
