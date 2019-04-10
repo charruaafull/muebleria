@@ -102,7 +102,7 @@ $(function () {
             success: function (data) {
                 if (data) {
                     for (var i = 0; i < data.length; i++) {
-                        $("#Ssc_Mad").append('<option value=' + data[i].Id_Ssm + '>' + data[i].Nom_Ssm + '</option>');
+                        $("#Ssc_Mad").append('<option value=' + data[i].Id_Sub + '>' + data[i].Nom_Sub + '</option>');
                     }
                 }
             }

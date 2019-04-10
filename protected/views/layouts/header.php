@@ -68,7 +68,21 @@
                     </a>
                 </li>
 
-                <li class="nav-item" name="subcategorias">
+                <li class="nav-item" name="subcategoriasMad">
+                    <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/categorias/Subcategorias">
+                        <i class="menu-icon mdi mdi-format-list-bulleted"></i>
+                        <span class="menu-title">Subcategorias .s/ Maderas</span>
+                    </a>
+                </li>
+
+                <li class="nav-item" name="SubsubcategoriaMad">
+                    <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/categorias/Subsubcategorias">
+                        <i class="menu-icon mdi mdi-format-list-bulleted"></i>
+                        <span class="menu-title">Sub-Subcategorias</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
                     <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/logout">
                         <i class="menu-icon mdi  mdi-logout"></i>
                         <span class="menu-title">Salir</span>

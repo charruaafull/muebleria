@@ -92,8 +92,8 @@ $(function () {
     });
 
     function getSubcategorias(Id_Sma) {
-        $("#Ssc_Mad").html('');
-        $("#Ssc_Mad").append('<option value="">Seleccione una opción</option>');
+        $("#Sca_Mue").html('');
+        $("#Sca_Mue").append('<option value="">Seleccione una opción</option>');
         $.ajax({
             url: 'GetSubSubcategorias',
             data: {Id_Sma: Id_Sma},
@@ -102,7 +102,7 @@ $(function () {
             success: function (data) {
                 if (data) {
                     for (var i = 0; i < data.length; i++) {
-                        $("#Ssc_Mad").append('<option value=' + data[i].Id_Ssm + '>' + data[i].Nom_Ssm + '</option>');
+                        $("#Sca_Mue").append('<option value=' + data[i].Id_Sub + '>' + data[i].Nom_Sub + '</option>');
                     }
                 }
             }

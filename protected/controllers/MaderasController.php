@@ -29,7 +29,8 @@ class MaderasController extends Controller
                     'Index',
                     'InsertarMadera',
                     'UpdateMadera',
-                    'DeleteMadera'
+                    'DeleteMadera',
+                    'GetSubSubcategorias'
                 ),
                 'expression' => "Yii::app()->session['USU']", // Yii::app()->session['USU']['Per_Usu']==1
             ),
@@ -43,12 +44,13 @@ class MaderasController extends Controller
     public function actionIndex()
     {
         $Id_Mad = Yii::app()->request->getParam('upd');
+        $subcat = CrudCategorias::getSubCategorias();
         if (isset($Id_Mad)):
             $pro = CrudMaderas::getMadera($Id_Mad);
-            $this->render('index', array('pro' => $pro));
+            $this->render('index', array('pro' => $pro, 'subcat' => $subcat));
         else:
             $res = CrudMaderas::getMaderas();
-            $this->render('index', array('res' => $res));
+            $this->render('index', array('res' => $res, 'subcat' => $subcat));
         endif;
     }
 
@@ -136,6 +138,15 @@ class MaderasController extends Controller
         endif;
 
         echo CJSON::encode($res);
+    }
+
+    public function actionGetSubSubcategorias()
+    {
+        $Id_Sma = Yii::app()->request->getParam('Id_Sma');
+        if (isset($Id_Sma)):
+            $res = CrudCategorias::getSubSubCategorias($Id_Sma);
+            echo CJSON::encode($res);
+        endif;
     }
 
 }

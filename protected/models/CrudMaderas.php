@@ -5,7 +5,9 @@ class CrudMaderas
 
     public static function getMaderas()
     {
-        $sql = "Select * From maderas ";
+        $sql = "Select * From maderas "
+            . "left join subcat_maderas on Id_Sma = Sub_Mad "
+            . "left join subsub_maderas on Id_Ssm = Ssc_Mad ";
 
         return sistema::getFilas($sql);
     }
@@ -18,7 +20,8 @@ class CrudMaderas
 
     public static function getMadera($Id_Mad)
     {
-        $sql = "Select * From maderas Where Id_Mad = $Id_Mad";
+        $sql = "Select * From maderas "
+        ." Where Id_Mad = $Id_Mad";
         return sistema::getFila($sql);
     }
 

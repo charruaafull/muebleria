@@ -33,15 +33,29 @@
                         <div class="col-lg-4">
                             <div class="form-group">
                                 <label>Subcategoría</label>
-                                <input type="text" name="Sub_Mad" id="Sub_Mad" class="form-control"
-                                       value="<?php echo (isset($pro)) ? $pro['Sub_Mad'] : ''; ?>">
+                                <select class="form-control" name="Sub_Mad" id="Sub_Mad">
+                                    <option>Seleccione una opción</option>
+                                    <?php foreach ($subcat as $sc): ?>
+                                        <option <?php echo (isset($pro) && $sc['Id_Sma'] == $pro['Sub_Mad']) ? 'selected' : ''; ?>
+                                                value="<?php echo $sc['Id_Sma']; ?>"><?php echo $sc['Nom_Sma']; ?></option>
+                                    <?php endforeach; ?>
+                                </select>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="form-group">
                                 <label>Sub - Subcategoría</label>
-                                <input type="text" name="Ssc_Mad" id="Ssc_Mad" class="form-control"
-                                       value="<?php echo (isset($pro)) ? $pro['Ssc_Mad'] : ''; ?>">
+                                <select class="form-control" id="Ssc_Mad" name="Ssc_Mad">
+                                    <option value="">Seleccione una opción</option>
+                                    <?php
+                                    if (isset($pro)):
+                                        $cat = CrudCategorias::getSubSubCategorias($pro['Sub_Mad']);
+                                        foreach ($cat as $c): ?>
+                                            <option <?php echo ($c['Id_Ssm'] == $pro['Ssc_Mad']) ? 'selected' : ''; ?> value="<?php echo $c['Id_Ssm']; ?>"><?php echo $c['Nom_Ssm']; ?></option>
+                                        <?php endforeach;
+                                    endif;
+                                    ?>
+                                </select>
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -119,13 +133,13 @@
                                                 <a class="text-black"
                                                    href="./Index?upd=<?php echo $pro['Id_Mad'] ?>"><i
                                                             class="fa fa-edit"></i></a>
-                                                <a href="#" class="text-black"  cod="<?php echo $pro['Cod_Mad']; ?>"
+                                                <a href="#" class="text-black" cod="<?php echo $pro['Cod_Mad']; ?>"
                                                    tag="lnk-del" nroId="<?php echo $pro['Id_Mad']; ?>"><i
                                                             class="fa fa-trash-o"></i></a>
                                             </td>
                                             <td><?php echo $pro['Cod_Mad']; ?></td>
-                                            <td><?php echo $pro['Sub_Mad']; ?></td>
-                                            <td><?php echo $pro['Ssc_Mad']; ?></td>
+                                            <td><?php echo $pro['Nom_Sma']; ?></td>
+                                            <td><?php echo $pro['Nom_Ssm']; ?></td>
                                             <td><?php echo $pro['Tce_Mad']; ?></td>
                                             <td><?php echo $pro['Stc_Mad']; ?></td>
                                             <td><?php echo $pro['Prc_Mad']; ?></td>
