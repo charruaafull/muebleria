@@ -29,7 +29,7 @@ class CategoriasController extends Controller
                     'Subcategorias',
                     'InsertarSubcategoria',
                     'EliminarSubcategoria',
-                    'SubSubCategorias',
+                    'MadSubSubCategorias',
                     'InsertarSubSubcategoria',
                     'EliminarSubSubcategoria'
                 ),
@@ -42,7 +42,7 @@ class CategoriasController extends Controller
         );
     }
 
-    public function actionSubcategorias()
+    public function actionMadSubcategorias()
     {
         $Id_Mad = Yii::app()->request->getParam('upd');
         if (isset($Id_Mad)):

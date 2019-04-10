@@ -34,24 +34,69 @@
                     </div>
                 </li>
                 <li class="nav-item" name="inicio">
-                    <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/ListarProductos">
+                    <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/verProd">
                         <i class="menu-icon mdi mdi-television"></i>
                         <span class="menu-title">Inicio</span>
                     </a>
                 </li>
 
-                <li class="nav-item" name="AddProductos">
-                    <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/Productos">
-                        <i class="menu-icon mdi mdi-chart-bar"></i>
+                <li class="nav-item">
+                    <a class="nav-link collapsed" data-toggle="collapse" href="#ui-muebles" aria-expanded="false" aria-controls="ui-basic">
+                        <i class="menu-icon mdi mdi-content-copy"></i>
                         <span class="menu-title">Sección Muebles</span>
+                        <i class="menu-arrow"></i>
                     </a>
+                    <div class="collapse" id="ui-muebles" style="">
+                        <ul class="nav flex-column sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/Productos">
+                                    <i class="menu-icon mdi mdi-chart-bar"></i>
+                                    Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/verProd">
+                                    <i class="menu-icon mdi mdi-chart-bar"></i>
+                                    Buscar Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/MueSubcategorias">
+                                    <i class="menu-icon mdi mdi-format-list-bulleted"></i>
+                                    <span class="menu-title">Sub-Categorias</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
 
-                <li class="nav-item" name="AddMaderas">
-                    <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/maderas/index">
-                        <i class="menu-icon mdi mdi-chart-bar"></i>
+
+                <li class="nav-item">
+                    <a class="nav-link collapsed" data-toggle="collapse" href="#ui-maderas" aria-expanded="false" aria-controls="ui-basic">
+                        <i class="menu-icon mdi mdi-content-copy"></i>
                         <span class="menu-title">Sección Maderas</span>
+                        <i class="menu-arrow"></i>
                     </a>
+                    <div class="collapse" id="ui-maderas" style="">
+                        <ul class="nav flex-column sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/maderas/index">
+                                    <i class="menu-icon mdi mdi-chart-bar"></i>
+                                    Productos</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/categorias/MadSubcategorias">
+                                    <i class="menu-icon mdi mdi-format-list-bulleted"></i>
+                                    Sub-Categorias</a>
+                            </li>
+
+                            <li class="nav-item" name="SubsubcategoriaMad">
+                                <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/categorias/Subsubcategorias">
+                                    <i class="menu-icon mdi mdi-format-list-bulleted"></i>
+                                    <span class="menu-title">Sub-SubCategorias</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
 
                 <li class="nav-item" name="proveedores">
@@ -61,26 +106,38 @@
                     </a>
                 </li>
 
+
+                <!--<li class="nav-item" name="proveedores">
+                    <a class="nav-link"  href="<?php /*echo Yii::app()->request->baseUrl; */?>/site/Proveedores">
+                        <i class="menu-icon mdi  mdi-account-multiple"></i>
+                        <span class="menu-title">Proveedores</span>
+                    </a>
+                </li>
+
+                <li class="nav-item" name="AddProductos">
+                    <a class="nav-link"  href="<?php /*echo Yii::app()->request->baseUrl; */?>/site/Productos">
+                        <i class="menu-icon mdi mdi-chart-bar"></i>
+                        <span class="menu-title">Sección Muebles</span>
+                    </a>
+                </li>
+
+                <li class="nav-item" name="AddMaderas">
+                    <a class="nav-link"  href="<?php /*echo Yii::app()->request->baseUrl; */?>/maderas/index">
+                        <i class="menu-icon mdi mdi-chart-bar"></i>
+                        <span class="menu-title">Sección Maderas</span>
+                    </a>
+                </li>
+
+
+
                 <li class="nav-item" name="subcategorias">
-                    <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/Subcategorias">
+                    <a class="nav-link"  href="<?php /*echo Yii::app()->request->baseUrl; */?>/site/Subcategorias">
                         <i class="menu-icon mdi mdi-format-list-bulleted"></i>
                         <span class="menu-title">Subcategorias</span>
                     </a>
-                </li>
+                </li>-->
 
-                <li class="nav-item" name="subcategoriasMad">
-                    <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/categorias/Subcategorias">
-                        <i class="menu-icon mdi mdi-format-list-bulleted"></i>
-                        <span class="menu-title">Subcategorias .s/ Maderas</span>
-                    </a>
-                </li>
 
-                <li class="nav-item" name="SubsubcategoriaMad">
-                    <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/categorias/Subsubcategorias">
-                        <i class="menu-icon mdi mdi-format-list-bulleted"></i>
-                        <span class="menu-title">Sub-Subcategorias</span>
-                    </a>
-                </li>
 
                 <li class="nav-item">
                     <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/site/logout">

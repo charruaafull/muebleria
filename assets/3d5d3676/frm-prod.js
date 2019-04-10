@@ -40,15 +40,9 @@ $(function () {
     function calculoPrecio() {
         Pco_Mue = $('#Pco_Mue').val();
         Uti_Mue = $('#Uti_Mue').val();
-        Out_Mue = $('#Out_Mue').val();
         Pre_Mue = 0;
 
         if (Pco_Mue && Uti_Mue) {
-
-            if(Out_Mue){
-                Uti_Mue = parseFloat(Uti_Mue) + parseFloat(Out_Mue);
-            }
-
             Utilidad = (parseFloat(Pco_Mue) * parseFloat(Uti_Mue)) / 100;
             Pre_Mue = parseFloat(Pco_Mue) + parseFloat(Utilidad);
             $('#Pre_Mue').val(Pre_Mue);
@@ -56,7 +50,7 @@ $(function () {
 
     }
 
-    $('#Pco_Mue,#Uti_Mue,#Out_Mue').blur(function () {
+    $('#Pco_Mue,#Uti_Mue').blur(function () {
         calculoPrecio();
     });
 

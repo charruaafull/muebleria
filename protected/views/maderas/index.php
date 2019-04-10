@@ -19,7 +19,7 @@
                                 <input type="text" name="Cod_Mad"
                                        id="Cod_Mad" <?php echo (isset($pro)) ? 'readonly' : ''; ?>
                                        value="<?php echo (isset($pro)) ? $pro['Cod_Mad'] : ''; ?>"
-                                       class="form-control">
+                                       class="form-control js-entero">
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -33,7 +33,7 @@
                         <div class="col-lg-4">
                             <div class="form-group">
                                 <label>Subcategoría</label>
-                                <select class="form-control" name="Sub_Mad" id="Sub_Mad">
+                                <select class="form-control js-entero" name="Sub_Mad" id="Sub_Mad">
                                     <option>Seleccione una opción</option>
                                     <?php foreach ($subcat as $sc): ?>
                                         <option <?php echo (isset($pro) && $sc['Id_Sma'] == $pro['Sub_Mad']) ? 'selected' : ''; ?>
@@ -45,7 +45,7 @@
                         <div class="col-lg-4">
                             <div class="form-group">
                                 <label>Sub - Subcategoría</label>
-                                <select class="form-control" id="Ssc_Mad" name="Ssc_Mad">
+                                <select class="form-control js-entero" id="Ssc_Mad" name="Ssc_Mad">
                                     <option value="">Seleccione una opción</option>
                                     <?php
                                     if (isset($pro)):
@@ -61,28 +61,28 @@
                         <div class="col-lg-4">
                             <div class="form-group">
                                 <label>Tipo de Cepillado</label>
-                                <input type="text" name="Tce_Mad" id="Tce_Mad" class="form-control"
+                                <input type="text" name="Tce_Mad" id="Tce_Mad" class="form-control js-entero"
                                        value="<?php echo (isset($pro)) ? $pro['Tce_Mad'] : ''; ?>">
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="form-group">
                                 <label>Subtipo de Cepillado</label>
-                                <input type="text" name="Stc_Mad" id="Stc_Mad" class="form-control"
+                                <input type="text" name="Stc_Mad" id="Stc_Mad" class="form-control js-entero"
                                        value="<?php echo (isset($pro)) ? $pro['Stc_Mad'] : ''; ?>">
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="form-group">
                                 <label>Precio de Carpintero</label>
-                                <input type="text" name="Prc_Mad" id="Prc_Mad" class="form-control"
+                                <input type="text" name="Prc_Mad" id="Prc_Mad" class="form-control js-entero"
                                        value="<?php echo (isset($pro)) ? $pro['Prc_Mad'] : ''; ?>">
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="form-group">
                                 <label>Precio Particular</label>
-                                <input type="text" name="Prp_Mad" id="Prp_Mad" class="form-control"
+                                <input type="text" name="Prp_Mad" id="Prp_Mad" class="form-control js-entero"
                                        value="<?php echo (isset($pro)) ? $pro['Prp_Mad'] : ''; ?>">
                             </div>
                         </div>

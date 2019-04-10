@@ -58,7 +58,7 @@
                                         <tr>
                                             <td class="text-center">
                                                 <a class="text-black"
-                                                   href="./Subcategorias?upd=<?php echo $r['Id_Sma'] ?>"><i
+                                                   href="./MadSubcategorias?upd=<?php echo $r['Id_Sma'] ?>"><i
                                                         class="fa fa-edit"></i></a>
                                                 <a href="#" class="text-black" nom="<?php echo $r['Nom_Sma']; ?>"
                                                    tag="lnk-del" nroId="<?php echo $r['Id_Sma']; ?>"><i

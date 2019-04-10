@@ -51,7 +51,7 @@ $(function () {
                     showError("#" + k, data.info[k]);
                     $('#' + k).focus();
                 } else {
-                    window.location.assign('./MadSubcategorias');
+                    location.reload();
                 }
             }
         });

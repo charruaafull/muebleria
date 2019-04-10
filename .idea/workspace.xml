@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259c2653-d19c-4926-ab80-109662f30b54" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/protected/controllers/MaderasController.php" afterPath="$PROJECT_DIR$/protected/controllers/MaderasController.php" />
-      <change beforePath="$PROJECT_DIR$/protected/models/CrudMaderas.php" afterPath="$PROJECT_DIR$/protected/models/CrudMaderas.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/js/function.js" afterPath="$PROJECT_DIR$/js/function.js" />
+      <change beforePath="$PROJECT_DIR$/protected/controllers/CategoriasController.php" afterPath="$PROJECT_DIR$/protected/controllers/CategoriasController.php" />
+      <change beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" />
       <change beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
+      <change beforePath="$PROJECT_DIR$/protected/runtime/productos/1-1.jpg" afterPath="$PROJECT_DIR$/protected/runtime/productos/1-1.jpg" />
+      <change beforePath="$PROJECT_DIR$/protected/views/categorias/subcategorias.js" afterPath="$PROJECT_DIR$/protected/views/categorias/subcategorias.js" />
+      <change beforePath="$PROJECT_DIR$/protected/views/categorias/subcategorias.php" afterPath="$PROJECT_DIR$/protected/views/categorias/subcategorias.php" />
       <change beforePath="$PROJECT_DIR$/protected/views/layouts/header.php" afterPath="$PROJECT_DIR$/protected/views/layouts/header.php" />
+      <change beforePath="$PROJECT_DIR$/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/views/layouts/main.php" />
       <change beforePath="$PROJECT_DIR$/protected/views/maderas/index.js" afterPath="$PROJECT_DIR$/protected/views/maderas/index.js" />
       <change beforePath="$PROJECT_DIR$/protected/views/maderas/index.php" afterPath="$PROJECT_DIR$/protected/views/maderas/index.php" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/frm-prod.js" afterPath="$PROJECT_DIR$/protected/views/site/frm-prod.js" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/frm-subc.js" afterPath="$PROJECT_DIR$/protected/views/site/frm-subc.js" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/frm-subc.php" afterPath="$PROJECT_DIR$/protected/views/site/frm-subc.php" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/list-prod.php" afterPath="$PROJECT_DIR$/protected/views/site/list-prod.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,70 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="list-prod.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/site/list-prod.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="66" column="41" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="66" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/views/maderas/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-              <folding>
-                <marker date="1554905791073" expanded="true" signature="4004:4304" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="4057:4304" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="4226:4304" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="4438:4738" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="4491:4738" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="4660:4738" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="4872:5169" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="4925:5169" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="5091:5169" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="5364:5614" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="5398:5595" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="5453:5572" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="5725:7284" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="5757:7284" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="5788:7284" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="5830:5892" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="5932:7284" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="5970:7284" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="6018:7284" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="6077:7284" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="6144:7284" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="6204:6901" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="6245:6856" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="6945:7284" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="7059:7284" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="7128:7284" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="7199:7284" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="7301:7384" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="7611:7697" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="8388:8452" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="8551:8644" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="9342:10012" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="9373:10005" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="9409:9994" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="9483:9638" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="9708:9787" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="9861:9978" ph="..." />
-                <marker date="1554905791073" expanded="true" signature="10046:10132" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/views/maderas/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="101" column="38" lean-forward="false" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
+            <state relative-caret-position="408">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#105#138#0" expanded="false" />
                 <element signature="e#178#210#0" expanded="false" />
@@ -91,96 +42,23 @@
                 <element signature="e#512#826#0" expanded="false" />
                 <element signature="e#696#812#0" expanded="false" />
                 <element signature="e#728#794#0" expanded="false" />
-                <element signature="e#875#1359#0" expanded="false" />
-                <element signature="e#918#1352#0" expanded="false" />
-                <element signature="e#932#1342#0" expanded="false" />
-                <element signature="e#1043#1123#0" expanded="false" />
-                <element signature="e#1167#1328#0" expanded="false" />
-                <element signature="e#1629#2319#0" expanded="false" />
-                <element signature="e#1730#2311#0" expanded="false" />
-                <element signature="e#1972#2301#0" expanded="false" />
-                <element signature="e#2006#2207#0" expanded="false" />
-                <element signature="e#2213#2287#0" expanded="false" />
-                <element signature="e#2363#2546#0" expanded="false" />
+                <element signature="e#1801#2491#0" expanded="false" />
+                <element signature="e#1902#2483#0" expanded="false" />
+                <element signature="e#2144#2473#0" expanded="false" />
+                <element signature="e#2178#2379#0" expanded="false" />
+                <element signature="e#2385#2459#0" expanded="false" />
+                <element signature="e#2535#2718#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaderasController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/controllers/MaderasController.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/maderas/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="146" column="47" lean-forward="false" selection-start-line="146" selection-start-column="47" selection-end-line="146" selection-end-column="47" />
-              <folding>
-                <element signature="n#filters#0;n#MaderasController#0;n#!!top" expanded="false" />
-                <element signature="e#104#149#0#PHP" expanded="false" />
-                <element signature="e#344#449#1#PHP" expanded="false" />
-                <element signature="e#544#649#1#PHP" expanded="false" />
-                <element signature="e#1088#1154#1#PHP" expanded="false" />
-                <element signature="n#actionInsertarMadera#0;n#MaderasController#0;n#!!top" expanded="false" />
-                <element signature="e#2290#2633#0#PHP" expanded="false" />
-                <element signature="e#2477#2618#0#PHP" expanded="false" />
-                <element signature="e#2643#3293#0#PHP" expanded="false" />
-                <element signature="e#2680#2904#0#PHP" expanded="false" />
-                <element signature="e#2924#2978#0#PHP" expanded="false" />
-                <element signature="e#3157#3278#0#PHP" expanded="false" />
-                <element signature="e#3182#3277#0#PHP" expanded="false" />
-                <element signature="n#actionDeleteMadera#0;n#MaderasController#0;n#!!top" expanded="false" />
-                <element signature="e#3450#3764#0#PHP" expanded="false" />
-                <element signature="e#3578#3711#0#PHP" expanded="false" />
-                <element signature="n#actionUpdateMadera#0;n#MaderasController#0;n#!!top" expanded="false" />
-                <element signature="e#4464#4865#0#PHP" expanded="false" />
-                <element signature="e#4508#4562#0#PHP" expanded="false" />
-                <element signature="e#4729#4850#0#PHP" expanded="false" />
-                <element signature="e#4754#4849#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrudMaderas.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/models/CrudMaderas.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="59" lean-forward="false" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-              <folding>
-                <marker date="1554905257147" expanded="true" signature="90:111" ph="Select * Fro... maderas" />
-                <marker date="1554905257147" expanded="true" signature="90:173" ph="Select * Fro... maderas" />
-                <marker date="1554905257147" expanded="true" signature="90:228" ph="Select * Fro... maderas" />
-                <marker date="1554905257147" expanded="true" signature="90:235" ph="Select * Fro... maderas" />
-                <marker date="1554905257147" expanded="true" signature="352:387" ph="Delete From maderas... " />
-                <marker date="1554905257147" expanded="true" signature="511:532" ph="Select * Fro... maderas" />
-                <marker date="1554905257147" expanded="true" signature="511:561" ph="Select * Fro... maderas" />
-                <marker date="1554905257147" expanded="true" signature="753:1278" ph="Insert Into maderas... " />
-                <marker date="1554905257147" expanded="true" signature="1459:1477" ph="Update maderas... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrudCategorias.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/models/CrudCategorias.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="47" column="27" lean-forward="false" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-              <folding>
-                <marker date="1554904970785" expanded="true" signature="99:127" ph="Select * Fro... subcategorias_maderas" />
-                <marker date="1554904970785" expanded="true" signature="244:286" ph="Delete From subcategorias_maderas... " />
-                <marker date="1554904970785" expanded="true" signature="416:460" ph="Select * Fro... subcategorias_maderas" />
-                <marker date="1554904970785" expanded="true" signature="582:757" ph="Insert Into maderas... " />
-                <marker date="1554904970785" expanded="true" signature="878:903" ph="Update maderas... " />
-                <marker date="1554904970785" expanded="true" signature="878:974" ph="Update subcategorias_maderas... " />
-                <marker date="1554904970785" expanded="true" signature="1106:1134" ph="Select * Fro... subsub_maderas" />
-                <marker date="1554904970785" expanded="true" signature="1106:1174" ph="Select * Fro... subsub_maderas" />
-                <marker date="1554904970785" expanded="true" signature="1106:1191" ph="Select * Fro... subsub_maderas" />
-                <marker date="1554904970785" expanded="true" signature="1106:1193" ph="Select * Fro... subsub_maderas" />
-                <marker date="1554904970785" expanded="true" signature="1401:1443" ph="Delete From subsub_maderas... " />
-                <marker date="1554904970785" expanded="true" signature="1576:1620" ph="Select * Fro... subsub_maderas" />
-                <marker date="1554904970785" expanded="true" signature="1767:1993" ph="Insert Into subsub_maderas... " />
-                <marker date="1554904970785" expanded="true" signature="2139:2240" ph="Update subcat_maderas... " />
-                <marker date="1554904970785" expanded="true" signature="2139:2273" ph="Update subcat_maderas... " />
-              </folding>
+            <state relative-caret-position="-2458">
+              <caret line="20" column="84" lean-forward="false" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -197,9 +75,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getprofesio</find>
-      <find>getMedicos</find>
-      <find>getprofesionales</find>
       <find>mdi</find>
       <find>datatab</find>
       <find>datata</find>
@@ -225,8 +100,11 @@
       <find>InsertarSubSubcategoria</find>
       <find>cat_m</find>
       <find>getsubcateg</find>
-      <find>Sca_Mue</find>
       <find>GetSubSubcategorias</find>
+      <find>Sca_Mue</find>
+      <find>AddProductos</find>
+      <find>Productos</find>
+      <find>Listar</find>
     </findStrings>
     <replaceStrings>
       <replace>cart</replace>
@@ -255,8 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/protected/views/site/register.js" />
-        <option value="$PROJECT_DIR$/protected/views/site/viewProducts.php" />
         <option value="$PROJECT_DIR$/protected/views/site/viewProducts.js" />
         <option value="$USER_HOME$/Desktop/revista-digital/index.html" />
         <option value="$USER_HOME$/Desktop/rev/index.html" />
@@ -269,43 +145,45 @@
         <option value="$PROJECT_DIR$/protected/models/sistema.php" />
         <option value="$PROJECT_DIR$/protected/models/frm_registro.php" />
         <option value="$PROJECT_DIR$/yii/framework/messages/es/yii.php" />
-        <option value="$PROJECT_DIR$/js/function.js" />
         <option value="$PROJECT_DIR$/protected/models/frm_proveedores.php" />
         <option value="$PROJECT_DIR$/protected/models/frm_subcategoria.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/footer.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/frm-subc.php" />
         <option value="$USER_HOME$/Desktop/StarAdmin-Free-Bootstrap-Admin-Template-master/pages/samples/login.html" />
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/protected/views/site/list-prod.php" />
         <option value="$USER_HOME$/Desktop/SiteController.php" />
         <option value="$USER_HOME$/Desktop/OkSiteController.php" />
         <option value="$PROJECT_DIR$/protected/views/site/frm-prov.php" />
         <option value="$PROJECT_DIR$/protected/views/site/list-prod.js" />
-        <option value="$PROJECT_DIR$/protected/views/site/frm-prod.js" />
         <option value="$PROJECT_DIR$/protected/views/site/frm-prov.js" />
-        <option value="$PROJECT_DIR$/protected/views/site/frm-subc.js" />
         <option value="$PROJECT_DIR$/protected/views/site/index.js" />
         <option value="$PROJECT_DIR$/protected/config/main.php" />
         <option value="$PROJECT_DIR$/protected/models/Consultas.php" />
         <option value="$PROJECT_DIR$/protected/views/site/frm-prod.php" />
         <option value="$PROJECT_DIR$/protected/models/frm_productos.php" />
-        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/protected/models/frm_maderas.php" />
         <option value="$PROJECT_DIR$/protected/models/frm_subcategoria_maderas.php" />
-        <option value="$PROJECT_DIR$/protected/views/categorias/subcategorias.js" />
-        <option value="$PROJECT_DIR$/protected/views/categorias/subcategorias.php" />
         <option value="$PROJECT_DIR$/protected/models/frm_subsubcategoria_maderas.php" />
         <option value="$PROJECT_DIR$/protected/views/categorias/subsubcategorias.js" />
-        <option value="$PROJECT_DIR$/protected/views/layouts/header.php" />
         <option value="$PROJECT_DIR$/protected/views/categorias/subsubcategorias.php" />
         <option value="$PROJECT_DIR$/protected/models/CrudCategorias.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/CategoriasController.php" />
         <option value="$PROJECT_DIR$/protected/controllers/MaderasController.php" />
-        <option value="$PROJECT_DIR$/protected/views/maderas/index.js" />
         <option value="$PROJECT_DIR$/protected/models/CrudMaderas.php" />
         <option value="$PROJECT_DIR$/protected/views/maderas/index.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/js/function.js" />
+        <option value="$PROJECT_DIR$/protected/controllers/CategoriasController.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/frm-subc.php" />
+        <option value="$PROJECT_DIR$/protected/views/categorias/subcategorias.php" />
+        <option value="$PROJECT_DIR$/protected/views/categorias/subcategorias.js" />
+        <option value="$PROJECT_DIR$/protected/views/site/frm-subc.js" />
+        <option value="$USER_HOME$/Desktop/Bootstrap/index.html" />
+        <option value="$USER_HOME$/Desktop/Bootstrap/style.css" />
+        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/list-prod.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/header.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/frm-prod.js" />
+        <option value="$PROJECT_DIR$/protected/views/maderas/index.js" />
       </list>
     </option>
   </component>
@@ -320,9 +198,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="831" />
-    <option name="y" value="34" />
-    <option name="width" value="902" />
+    <option name="x" value="874" />
+    <option name="y" value="1" />
+    <option name="width" value="697" />
     <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -381,13 +259,6 @@
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="maderas" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="muebleria2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="muebleria2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -445,9 +316,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21375267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21588486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5021322" order="10" side_tool="true" content_ui="tabs" />
@@ -499,27 +369,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yii/framework/base/CComponent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-358">
-          <caret line="542" column="20" lean-forward="false" selection-start-line="542" selection-start-column="20" selection-end-line="542" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Login_Mdl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="44" column="57" lean-forward="false" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yii/framework/base/CModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -617,14 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/frm-subc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/frm-prov.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -660,20 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="12" column="76" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/function.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/frm_productos.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -688,43 +515,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/frm-subc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="99" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/frm_subcategoria_maderas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/categorias/subcategorias.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/categorias/subcategorias.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="80" column="66" lean-forward="false" selection-start-line="80" selection-start-column="66" selection-end-line="80" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,14 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/frm-prod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="133" column="5" lean-forward="true" selection-start-line="112" selection-start-column="4" selection-end-line="133" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -809,76 +593,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="169" column="5" lean-forward="true" selection-start-line="162" selection-start-column="4" selection-end-line="169" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/list-prod.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="66" column="41" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="66" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/CategoriasController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-          <folding>
-            <element signature="n#actionEliminarSubcategoria#0;n#CategoriasController#0;n#!!top" expanded="false" />
-            <element signature="n#actionInsertarSubcategoria#0;n#CategoriasController#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/CrudMaderas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="59" lean-forward="false" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-          <folding>
-            <marker date="1554905257147" expanded="true" signature="90:111" ph="Select * Fro... maderas" />
-            <marker date="1554905257147" expanded="true" signature="90:173" ph="Select * Fro... maderas" />
-            <marker date="1554905257147" expanded="true" signature="90:228" ph="Select * Fro... maderas" />
-            <marker date="1554905257147" expanded="true" signature="90:235" ph="Select * Fro... maderas" />
-            <marker date="1554905257147" expanded="true" signature="352:387" ph="Delete From maderas... " />
-            <marker date="1554905257147" expanded="true" signature="511:532" ph="Select * Fro... maderas" />
-            <marker date="1554905257147" expanded="true" signature="511:561" ph="Select * Fro... maderas" />
-            <marker date="1554905257147" expanded="true" signature="753:1278" ph="Insert Into maderas... " />
-            <marker date="1554905257147" expanded="true" signature="1459:1477" ph="Update maderas... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/maderas/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="101" column="38" lean-forward="false" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
-          <folding>
-            <element signature="e#105#138#0" expanded="false" />
-            <element signature="e#178#210#0" expanded="false" />
-            <element signature="e#263#295#0" expanded="false" />
-            <element signature="e#340#843#0" expanded="false" />
-            <element signature="e#491#837#0" expanded="false" />
-            <element signature="e#512#826#0" expanded="false" />
-            <element signature="e#696#812#0" expanded="false" />
-            <element signature="e#728#794#0" expanded="false" />
-            <element signature="e#875#1359#0" expanded="false" />
-            <element signature="e#918#1352#0" expanded="false" />
-            <element signature="e#932#1342#0" expanded="false" />
-            <element signature="e#1043#1123#0" expanded="false" />
-            <element signature="e#1167#1328#0" expanded="false" />
-            <element signature="e#1629#2319#0" expanded="false" />
-            <element signature="e#1730#2311#0" expanded="false" />
-            <element signature="e#1972#2301#0" expanded="false" />
-            <element signature="e#2006#2207#0" expanded="false" />
-            <element signature="e#2213#2287#0" expanded="false" />
-            <element signature="e#2363#2546#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -906,9 +624,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/MaderasController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="872">
           <caret line="146" column="47" lean-forward="false" selection-start-line="146" selection-start-column="47" selection-end-line="146" selection-end-column="47" />
           <folding>
             <element signature="n#filters#0;n#MaderasController#0;n#!!top" expanded="false" />
@@ -936,49 +661,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/CategoriasController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="n#actionEliminarSubcategoria#0;n#CategoriasController#0;n#!!top" expanded="false" />
+            <element signature="n#actionInsertarSubcategoria#0;n#CategoriasController#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/frm-subc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="76" column="62" lean-forward="false" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/categorias/subcategorias.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="60" column="62" lean-forward="false" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/categorias/subcategorias.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1272">
+          <caret line="53" column="49" lean-forward="false" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="65" column="70" lean-forward="false" selection-start-line="65" selection-start-column="70" selection-end-line="65" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ProgramacionII/Bootstrap/01 - includeBootstrap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Bootstrap/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Bootstrap/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4824">
+          <caret line="201" column="14" lean-forward="false" selection-start-line="201" selection-start-column="14" selection-end-line="201" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/frm-subc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="36" column="103" lean-forward="false" selection-start-line="36" selection-start-column="103" selection-end-line="36" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/list-prod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/frm-prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="48" column="67" lean-forward="false" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/maderas/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="-2458">
+          <caret line="20" column="84" lean-forward="false" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/maderas/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <marker date="1554905791073" expanded="true" signature="4004:4304" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="4057:4304" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="4226:4304" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="4438:4738" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="4491:4738" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="4660:4738" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="4872:5169" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="4925:5169" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="5091:5169" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="5364:5614" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="5398:5595" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="5453:5572" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="5725:7284" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="5757:7284" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="5788:7284" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="5830:5892" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="5932:7284" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="5970:7284" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="6018:7284" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="6077:7284" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="6144:7284" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="6204:6901" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="6245:6856" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="6945:7284" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="7059:7284" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="7128:7284" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="7199:7284" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="7301:7384" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="7611:7697" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="8388:8452" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="8551:8644" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="9342:10012" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="9373:10005" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="9409:9994" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="9483:9638" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="9708:9787" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="9861:9978" ph="..." />
-            <marker date="1554905791073" expanded="true" signature="10046:10132" ph="..." />
+            <element signature="e#105#138#0" expanded="false" />
+            <element signature="e#178#210#0" expanded="false" />
+            <element signature="e#263#295#0" expanded="false" />
+            <element signature="e#340#843#0" expanded="false" />
+            <element signature="e#491#837#0" expanded="false" />
+            <element signature="e#512#826#0" expanded="false" />
+            <element signature="e#696#812#0" expanded="false" />
+            <element signature="e#728#794#0" expanded="false" />
+            <element signature="e#1801#2491#0" expanded="false" />
+            <element signature="e#1902#2483#0" expanded="false" />
+            <element signature="e#2144#2473#0" expanded="false" />
+            <element signature="e#2178#2379#0" expanded="false" />
+            <element signature="e#2385#2459#0" expanded="false" />
+            <element signature="e#2535#2718#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -9,7 +9,7 @@
                 Buscar Productos
             </div>
             <div class="card-body">
-                <form id="frm-search" method="get" action="ListarProductos">
+                <form id="frm-search" method="get" action="verProd">
                     <input type="hidden" name="search" id="search" value="1">
                     <div class="row">
                         <div class="col-lg-3">

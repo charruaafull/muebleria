@@ -18,8 +18,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     <!--<script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>-->
-    <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/function.js"></script>
-
 
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
@@ -65,6 +63,7 @@ require Yii::getPathOfAlias('application.views.layouts.header') . '.php'; ?>
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/off-canvas.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/misc.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/function.js"></script>
 
 </body>
 

@@ -46,7 +46,7 @@ $(function () {
         if (Pco_Mue && Uti_Mue) {
 
             if(Out_Mue){
-                Uti_Mue = parseFloat(Uti_Mue) + parseFloat(Out_Mue);
+                Uti_Mue = Uti_Mue + Out_Mue;
             }
 
             Utilidad = (parseFloat(Pco_Mue) * parseFloat(Uti_Mue)) / 100;

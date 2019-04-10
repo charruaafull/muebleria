@@ -22749,3 +22749,1334 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
 ---
+2019/04/10 11:18:51 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 11:18:59 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 11:19:34 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 11:31:58 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 11:43:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 11:43:16 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 11:46:48 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 11:47:30 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 11:49:09 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 11:49:22 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 11:49:30 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 11:49:44 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 11:50:32 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 11:50:42 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:13:01 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:13:25 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:13:35 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:14:09 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:14:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:14:22 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:14:24 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:16:12 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:17:38 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:17:50 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:18:20 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:18:33 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:18:42 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:18:47 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:18:51 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:19:56 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:20:00 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:20:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:20:06 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:20:15 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:20:35 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:20:38 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "site" solicitada. in C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Lista...')
+#3 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/muebleria2/site/site/ListarProductos
+HTTP_REFERER=http://localhost:7777/muebleria2/site/ListarProductos
+---
+2019/04/10 12:21:05 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:21:09 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:21:12 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "site" solicitada. in C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Lista...')
+#3 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/muebleria2/site/site/ListarProductos
+HTTP_REFERER=http://localhost:7777/muebleria2/site/ListarProductos
+---
+2019/04/10 12:21:34 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:21:37 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:21:39 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "site" solicitada. in C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Lista...')
+#3 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/muebleria2/site/site/ListarProductos
+HTTP_REFERER=http://localhost:7777/muebleria2/site/Subcategorias
+---
+2019/04/10 12:21:43 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:21:47 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:21:54 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:22:01 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:22:04 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:22:09 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:22:11 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "site" solicitada. in C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/Lista...')
+#3 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/muebleria2/site/site/ListarProductos
+HTTP_REFERER=http://localhost:7777/muebleria2/site/Subcategorias
+---
+2019/04/10 12:22:14 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:22:28 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:22:30 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:22:34 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:22:36 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:22:38 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:22:40 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:22:43 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:22:45 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:22:47 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:23:11 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:24:21 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:24:24 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:24:31 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:24:54 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:32:20 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:32:41 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:32:43 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:33:10 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:34:12 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:34:47 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:34:57 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:35:01 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:35:07 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:35:10 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:35:37 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:35:39 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:36:51 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:36:57 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:36:59 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:37:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:37:16 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:37:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:37:32 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:37:40 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:37:44 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:37:46 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:37:49 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:37:54 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:38:02 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:38:36 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:38:42 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:38:45 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:38:48 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:39:05 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:39:08 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:39:10 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:39:13 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:39:16 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:39:21 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:39:24 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:40:00 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:40:02 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:40:05 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:40:14 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:40:51 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:41:35 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:41:38 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:41:42 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:41:51 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:41:53 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:41:58 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:42:24 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:42:27 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:42:31 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "Subcategorias" solicitada. in C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php(270): CController->missingAction('Subcategorias')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(282): CController->run('Subcategorias')
+#2 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Subcategor...')
+#3 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/muebleria2/site/Subcategorias
+HTTP_REFERER=http://localhost:7777/muebleria2/site/MueSubcategorias
+---
+2019/04/10 12:42:46 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:42:50 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:42:51 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "Subcategorias" solicitada. in C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php(270): CController->missingAction('Subcategorias')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(282): CController->run('Subcategorias')
+#2 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Subcategor...')
+#3 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/muebleria2/site/Subcategorias?upd=10
+HTTP_REFERER=http://localhost:7777/muebleria2/site/MueSubcategorias
+---
+2019/04/10 12:43:04 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "Subcategorias" solicitada. in C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php(270): CController->missingAction('Subcategorias')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(282): CController->run('Subcategorias')
+#2 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Subcategor...')
+#3 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/muebleria2/site/Subcategorias?upd=10
+HTTP_REFERER=http://localhost:7777/muebleria2/site/MueSubcategorias
+---
+2019/04/10 12:43:07 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:43:09 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:43:13 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:43:24 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:43:51 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:43:54 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:43:55 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "Subcategorias" solicitada. in C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php(270): CController->missingAction('Subcategorias')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(282): CController->run('Subcategorias')
+#2 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('categorias/Subc...')
+#3 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/muebleria2/categorias/Subcategorias?upd=7
+HTTP_REFERER=http://localhost:7777/muebleria2/categorias/MadSubcategorias
+---
+2019/04/10 12:44:08 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:44:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:44:21 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:44:38 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:44:41 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:44:45 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:44:47 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:44:52 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:44:57 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:44:59 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:45:02 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:45:24 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:45:45 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 12:45:48 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 14:49:51 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 15:29:34 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "Productos" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Productos')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/Productos
+---
+2019/04/10 15:33:53 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "ListarProductos" solicitada. in C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CController.php(270): CController->missingAction('ListarProductos')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(282): CController->run('ListarProductos')
+#2 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/ListarProd...')
+#3 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#5 {main}
+REQUEST_URI=/muebleria2/site/ListarProductos?search=1&Cod_Mue=&Id_Mue=&Nom_Mue=&Pro_Mue=&Id_Prov=&Cat_Mue=&Sca_Mue=
+HTTP_REFERER=http://localhost:7777/muebleria2/site/verProd
+---
+2019/04/10 15:51:21 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 15:52:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 15:52:47 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 15:54:33 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 15:54:37 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 15:54:41 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 15:55:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 15:55:37 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 15:57:32 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 15:57:56 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 15:58:04 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 15:58:17 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 15:58:39 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 15:58:50 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 15:58:53 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 16:00:43 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 16:01:59 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 16:02:10 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 16:02:26 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 16:05:46 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---
+2019/04/10 16:09:57 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "vendors/css/jquery.contextMenu.min.css.map" in C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\muebleria2\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendors/css/jqu...')
+#1 C:\xampp7\htdocs\muebleria2\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\muebleria2\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/muebleria2/vendors/css/jquery.contextMenu.min.css.map
+---

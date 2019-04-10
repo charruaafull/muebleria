@@ -1,5 +1,5 @@
 $(function () {
-    $('[name=SubcategoriaMad]').addClass('active');
+    /*$('[name=Subcategoria]').addClass('active');*/
 
     $('#tbl-sub').DataTable({
         dom: 'lBfrtip',
@@ -39,8 +39,9 @@ $(function () {
 
     function InsertarSubcategoria() {
         data = $('#frm-sca').serialize();
+        id = $('#Id_Sca').val();
         $.ajax({
-            url: 'InsertarSubcategoria',
+            url: (id) ? 'ModificarSubcategoria' : 'InsertarSubcategoria',
             data: data,
             type: 'post',
             dataType: 'json',
@@ -51,19 +52,19 @@ $(function () {
                     showError("#" + k, data.info[k]);
                     $('#' + k).focus();
                 } else {
-                    window.location.assign('./MadSubcategorias');
+                    window.location.assign('./Subcategorias');
                 }
             }
         });
     }
 
     $('[tag=lnk-del]').click(function () {
-        Id_Sma = $(this).attr('nroId');
+        Id_Sub = $(this).attr('nroId');
         nom = $(this).attr('nom');
         if (window.confirm("¿Desea eliminar la categoría " + nom + "?")) {
             $.ajax({
                 url: 'EliminarSubcategoria',
-                data: {Id_Sma: Id_Sma},
+                data: {Id_Sub: Id_Sub},
                 type: 'post',
                 dataType: 'json',
                 success: function (data) {

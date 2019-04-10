@@ -36,13 +36,8 @@ $(function () {
         dom: 'lBfrtip',
         buttons: [
             {
-                extend: 'excelHtml5',
-                exportOptions: {
-                    columns: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
-                }
-            },
-            {
                 extend: 'pdfHtml5',
+
                 orientation: 'landscape',
                 exportOptions: {
                     columns: [1, 2, 3, 4, 5, 6, 7, 8]
@@ -52,6 +47,9 @@ $(function () {
                         Array(doc.content[1].table.body[0].length + 1).join('*').split('');
                 }
             }
+        ],
+        buttons: [
+            'copy', 'csv', 'excel', 'pdf', 'print'
         ]
     });
 

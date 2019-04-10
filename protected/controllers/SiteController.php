@@ -34,14 +34,14 @@ class SiteController extends Controller
                     'Logout',
                     'InsertarProducto',
                     'ModificarProducto',
-                    'ListarProductos',
+                    'verProd',
                     'EliminarProducto',
                     'Proveedores',
                     'InsertarProveedor',
                     'ModificarProveedor',
                     'GetLocalidades',
                     'EliminarProveedor',
-                    'Subcategorias',
+                    'MueSubcategorias',
                     'InsertarProveedor',
                     'InsertarSubcategoria',
                     'ModificarSubcategoria',
@@ -117,7 +117,7 @@ class SiteController extends Controller
     public function actionIndex()
     {
         if (isset(Yii::app()->session['USU'])):
-            $this->redirect('./site/ListarProductos');
+            $this->redirect('./site/verProd');
         endif;
         $this->pageTitle = 'Login | ' . Yii::app()->name;
         $this->render('index');
@@ -126,7 +126,7 @@ class SiteController extends Controller
     public function actionLogin()
     {
         if (isset(Yii::app()->session['USU'])):
-            $this->redirect('./site/ListarProductos');
+            $this->redirect('./site/verProd');
         endif;
         $this->pageTitle = 'Login | ' . Yii::app()->name;
         $this->render('index');
@@ -147,7 +147,7 @@ class SiteController extends Controller
         endif;
     }
 
-    public function actionSubcategorias()
+    public function actionMueSubcategorias()
     {
         $this->pageTitle = 'Subcategorías | ' . Yii::app()->name;
         $Id_Subc = Yii::app()->request->getParam('upd');
@@ -250,7 +250,7 @@ class SiteController extends Controller
         endif;
     }
 
-    public function actionListarProductos()
+    public function actionverProd()
     {
         $this->pageTitle = 'Listado de Productos | ' . Yii::app()->name;
 

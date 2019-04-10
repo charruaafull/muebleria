@@ -74,7 +74,7 @@
                                         <tr>
                                             <td class="text-center">
                                                 <a class="text-black"
-                                                   href="./Subcategorias?upd=<?php echo $sca['Id_Sub'] ?>"><i
+                                                   href="./MueSubcategorias?upd=<?php echo $sca['Id_Sub'] ?>"><i
                                                             class="fa fa-edit"></i></a>
                                                 <a href="#" class="text-black" nom="<?php echo $sca['Nom_Sub']; ?>"
                                                    tag="lnk-del" nroId="<?php echo $sca['Id_Sub']; ?>"><i
