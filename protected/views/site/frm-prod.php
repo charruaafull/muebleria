@@ -19,7 +19,7 @@
                                 <input type="text" name="Cod_Mue"
                                        id="Cod_Mue" <?php echo (isset($pro)) ? 'readonly' : ''; ?>
                                        value="<?php echo (isset($pro)) ? $pro['Cod_Mue'] : ''; ?>"
-                                       class="form-control">
+                                       class="form-control js-entero">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -260,6 +260,13 @@
                                     </tbody>
                                 </table>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-lg-12 text-right">
+                            <a href="./Productos" class="btn btn-success"><i class="fa fa-undo"></i> Reiniciar</a>
                         </div>
                     </div>
                 </div>

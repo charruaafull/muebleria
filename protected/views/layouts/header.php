@@ -82,7 +82,11 @@
                                     <i class="menu-icon mdi mdi-chart-bar"></i>
                                     Productos</a>
                             </li>
-
+                            <li class="nav-item">
+                                <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/maderas/ListaMaderas">
+                                    <i class="menu-icon mdi mdi-chart-bar"></i>
+                                    Buscar Productos</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/categorias/MadSubcategorias">
                                     <i class="menu-icon mdi mdi-format-list-bulleted"></i>
@@ -95,6 +99,22 @@
                                     <span class="menu-title">Sub-SubCategorias</span>
                                 </a>
                             </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/maderas/TiposCepillados">
+                                    <i class="menu-icon mdi mdi-format-list-bulleted"></i>
+                                    <span class="menu-title">Tipos de Cepillados</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link"  href="<?php echo Yii::app()->request->baseUrl; ?>/maderas/SubTiposCepillados">
+                                    <i class="menu-icon mdi mdi-format-list-bulleted"></i>
+                                    <span class="menu-title">Sub-Tipos de Cepillados</span>
+                                </a>
+                            </li>
+
                         </ul>
                     </div>
                 </li>

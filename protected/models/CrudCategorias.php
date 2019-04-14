@@ -94,4 +94,92 @@ class CrudCategorias
         return sistema::execute($sql);
     }
 
+    /*
+     * Cepillado
+     */
+
+    public static function getTiposCepillado()
+    {
+        $sql = "Select * From tipocepillado_maderas ";
+        return sistema::getFilas($sql);
+    }
+
+    public static function deleteTipoCepillado($Id_Cep)
+    {
+        $sql = "Delete From tipocepillado_maderas Where Id_Cep = $Id_Cep";
+        return sistema::execute($sql);
+    }
+
+    public static function getTipoCepillado($Id_Cep)
+    {
+        $sql = "Select * From tipocepillado_maderas Where Id_Cep = $Id_Cep";
+        return sistema::getFila($sql);
+    }
+
+    public static function insertTipoCepillado($Nom_Cep)
+    {
+        $sql = "Insert Into tipocepillado_maderas " .
+            "(" .
+            "Nom_Cep" .
+            ") " .
+            "VALUES " .
+            "(" .
+            "'$Nom_Cep'" .
+            ")";
+
+        return sistema::execute($sql);
+    }
+
+    public static function updateTipoCepillado($id, $Nom_Cep)
+    {
+        $sql = "Update tipocepillado_maderas set "
+            . "Nom_Cep = '$Nom_Cep' " .
+            "Where Id_Cep = $id";
+        return sistema::execute($sql);
+    }
+
+    /*
+     * Subtipo cepillados
+     */
+
+    public static function getSubTipoCepillados($id = '')
+    {
+        $sql = "Select * From subtipocepillado_maderas ";
+        return sistema::getFilas($sql);
+    }
+
+    public static function deleteSubTipoCepillado($Id_Sce)
+    {
+        $sql = "Delete From subtipocepillado_maderas Where Id_Sce = $Id_Sce";
+        return sistema::execute($sql);
+    }
+
+    public static function getSubTipoCepillado($Id_Sce)
+    {
+        $sql = "Select * From subtipocepillado_maderas Where Id_Sce = $Id_Sce";
+        return sistema::getFila($sql);
+    }
+
+    public static function insertSubTipoCepillado($Nom_Sce)
+    {
+        $sql = "Insert Into subtipocepillado_maderas " .
+            "(" .
+            "Nom_Sce" .
+            ") " .
+            "VALUES " .
+            "(" .
+            "'$Nom_Sce'" .
+            ")";
+
+        return sistema::execute($sql);
+    }
+
+    public static function updateSubTipoCepillado($id, $Nom_Sce)
+    {
+        $sql = "Update subtipocepillado_maderas set "
+            . "Nom_Sce = '$Nom_Sce' "
+            . "Where Id_Sce = $id";
+        return sistema::execute($sql);
+    }
+
 }

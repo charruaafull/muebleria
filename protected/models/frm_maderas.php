@@ -9,14 +9,19 @@ class frm_maderas extends CFormModel
     public $Ssc_Mad;
     public $Tce_Mad;
     public $Stc_Mad;
-    public $Prc_Mad;
-    public $Prp_Mad;
+    public $Pm2_Car_Mad;
+    public $Pli_Car_Mad;
+    public $Ppi_Car_Mad;
+    public $Pm2_Par_Mad;
+    public $Pli_Par_Mad;
+    public $Ppi_Par_Mad;
 
     public function rules()
     {
 
         return array(
             array('Cod_Mad', 'required'),
+            array('Cod_Mad', 'validoCodigo'),
             array('Cod_Mad', 'encodingString'),
             array('Cod_Mad', 'length', 'max' => 11),
 
@@ -39,13 +44,14 @@ class frm_maderas extends CFormModel
             array('Stc_Mad', 'encodingString'),
             array('Stc_Mad', 'length', 'max' => 4),
 
-            array('Prc_Mad', 'required'),
-            array('Prc_Mad', 'encodingString'),
-            array('Prc_Mad', 'length', 'max' => 4),
+            array('Pm2_Car_Mad', 'required'),
+            array('Pli_Car_Mad', 'required'),
+            array('Ppi_Car_Mad', 'required'),
 
-            array('Prp_Mad', 'required'),
-            array('Prp_Mad', 'encodingString'),
-            array('Prp_Mad', 'length', 'max' => 4),
+            array('Pm2_Par_Mad', 'required'),
+            array('Pli_Par_Mad', 'required'),
+            array('Ppi_Par_Mad', 'required')
+
         );
     }
 
@@ -58,8 +64,12 @@ class frm_maderas extends CFormModel
             'Ssc_Mad' => 'Sub-Subcategoría',
             'Tce_Mad' => 'Tipo de cepillado',
             'Stc_Mad' => 'Subtipo de cepillado',
-            'Prc_Mad' => 'Precio carpintero',
-            'Prp_Mad' => 'Precio partcular',
+            'Pm2_Car_Mad' => 'Precio M2',
+            'Pli_Car_Mad' => 'Precio Lineal',
+            'Ppi_Car_Mad' => 'Precio Pie',
+            'Pm2_Par_Mad' => 'Precio M2',
+            'Pli_Par_Mad' => 'Precio Lineal',
+            'Ppi_Par_Mad' => 'Precio Pie',
         );
     }
 
@@ -75,6 +85,16 @@ class frm_maderas extends CFormModel
             if ($val):
                 $this->addError($attribute, ' El campo no puede contener comillas.');
                 exit();
+            endif;
+        endif;
+    }
+
+    public function validoCodigo($attribute)
+    {
+        if ($this->$attribute != ''):
+            $res = CrudMaderas::getCodigo($this->$attribute);
+            if ($res > 0):
+                $this->addError($attribute, 'El código ya existe');
             endif;
         endif;
     }

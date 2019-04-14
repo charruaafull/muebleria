@@ -34,7 +34,7 @@
                             <div class="form-group">
                                 <label>Subcategoría</label>
                                 <select class="form-control js-entero" name="Sub_Mad" id="Sub_Mad">
-                                    <option>Seleccione una opción</option>
+                                    <option value="">Seleccione una opción</option>
                                     <?php foreach ($subcat as $sc): ?>
                                         <option <?php echo (isset($pro) && $sc['Id_Sma'] == $pro['Sub_Mad']) ? 'selected' : ''; ?>
                                                 value="<?php echo $sc['Id_Sma']; ?>"><?php echo $sc['Nom_Sma']; ?></option>
@@ -48,12 +48,11 @@
                                 <select class="form-control js-entero" id="Ssc_Mad" name="Ssc_Mad">
                                     <option value="">Seleccione una opción</option>
                                     <?php
-                                    if (isset($pro)):
-                                        $cat = CrudCategorias::getSubSubCategorias($pro['Sub_Mad']);
-                                        foreach ($cat as $c): ?>
-                                            <option <?php echo ($c['Id_Ssm'] == $pro['Ssc_Mad']) ? 'selected' : ''; ?> value="<?php echo $c['Id_Ssm']; ?>"><?php echo $c['Nom_Ssm']; ?></option>
-                                        <?php endforeach;
-                                    endif;
+                                    $cat = CrudCategorias::getSubSubCategorias((isset($pro)) ? $pro['Sub_Mad'] : '');
+                                    foreach ($cat as $c): ?>
+                                        <option <?php echo (isset($pro) && $c['Id_Ssm'] == $pro['Ssc_Mad']) ? 'selected' : ''; ?>
+                                                value="<?php echo $c['Id_Ssm']; ?>"><?php echo $c['Nom_Ssm']; ?></option>
+                                    <?php endforeach;
                                     ?>
                                 </select>
                             </div>
@@ -61,29 +60,75 @@
                         <div class="col-lg-4">
                             <div class="form-group">
                                 <label>Tipo de Cepillado</label>
-                                <input type="text" name="Tce_Mad" id="Tce_Mad" class="form-control js-entero"
-                                       value="<?php echo (isset($pro)) ? $pro['Tce_Mad'] : ''; ?>">
+                                <select class="form-control" name="Tce_Mad" id="Tce_Mad">
+                                    <option value="">Seleccione una opción</option>
+                                    <?php foreach ($cep as $c): ?>
+                                        <option <?php echo (isset($pro) && $pro['Tce_Mad'] == $c['Id_Cep']) ? 'selected' : ''; ?>
+                                                value="<?php echo $c['Id_Cep']; ?>"><?php echo $c['Nom_Cep']; ?></option>
+                                    <?php endforeach; ?>
+                                </select>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="form-group">
                                 <label>Subtipo de Cepillado</label>
-                                <input type="text" name="Stc_Mad" id="Stc_Mad" class="form-control js-entero"
-                                       value="<?php echo (isset($pro)) ? $pro['Stc_Mad'] : ''; ?>">
+                                <select class="form-control" name="Stc_Mad" id="Stc_Mad">
+                                    <option value="">Seleccione una opción</option>
+                                    <?php foreach ($sce as $c): ?>
+                                        <option <?php echo (isset($pro) && $pro['Stc_Mad'] == $c['Id_Sce']) ? 'selected' : ''; ?>
+                                                value="<?php echo $c['Id_Sce']; ?>"><?php echo $c['Nom_Sce']; ?></option>
+                                    <?php endforeach; ?>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <hr>
+                            <label><strong>Precio Carpintero</strong></label>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>Precio M2</label>
+                                <input type="text" name="Pm2_Car_Mad" id="Pm2_Car_Mad" class="form-control js-entero"
+                                       value="<?php echo (isset($pro)) ? $pro['Pm2_Car_Mad'] : ''; ?>">
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="form-group">
-                                <label>Precio de Carpintero</label>
-                                <input type="text" name="Prc_Mad" id="Prc_Mad" class="form-control js-entero"
-                                       value="<?php echo (isset($pro)) ? $pro['Prc_Mad'] : ''; ?>">
+                                <label>Precio Lineal</label>
+                                <input type="text" name="Pli_Car_Mad" id="Pli_Car_Mad" class="form-control js-entero"
+                                       value="<?php echo (isset($pro)) ? $pro['Pli_Car_Mad'] : ''; ?>">
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="form-group">
-                                <label>Precio Particular</label>
-                                <input type="text" name="Prp_Mad" id="Prp_Mad" class="form-control js-entero"
-                                       value="<?php echo (isset($pro)) ? $pro['Prp_Mad'] : ''; ?>">
+                                <label>Precio Pie</label>
+                                <input type="text" name="Ppi_Car_Mad" id="Ppi_Car_Mad" class="form-control js-entero"
+                                       value="<?php echo (isset($pro)) ? $pro['Ppi_Car_Mad'] : ''; ?>">
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <hr>
+                            <label><strong>Precio Particular</strong></label>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>Precio M2</label>
+                                <input type="text" name="Pm2_Par_Mad" id="Pm2_Par_Mad" class="form-control js-entero"
+                                       value="<?php echo (isset($pro)) ? $pro['Pm2_Par_Mad'] : ''; ?>">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>Precio Lineal</label>
+                                <input type="text" name="Pli_Par_Mad" id="Pli_Par_Mad" class="form-control js-entero"
+                                       value="<?php echo (isset($pro)) ? $pro['Pli_Par_Mad'] : ''; ?>">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label>Precio Pie</label>
+                                <input type="text" name="Ppi_Par_Mad" id="Ppi_Par_Mad" class="form-control js-entero"
+                                       value="<?php echo (isset($pro)) ? $pro['Ppi_Par_Mad'] : ''; ?>">
                             </div>
                         </div>
                     </div>
@@ -121,8 +166,12 @@
                                         <th>Sub-Subcategoría</th>
                                         <th>Tipo de cepillado</th>
                                         <th>Subtipo de cepillado</th>
-                                        <th>Precio Carpintero</th>
-                                        <th>Precio Particular</th>
+                                        <th>Precio M2 (car)</th>
+                                        <th>Precio Lineal (car)</th>
+                                        <th>Precio Pie (car)</th>
+                                        <th>Precio M2 (par)</th>
+                                        <th>Precio Pie (par)</th>
+                                        <th>Precio Lineal (par)</th>
                                         <th>Imágen</th>
                                     </tr>
                                     </thead>
@@ -140,15 +189,19 @@
                                             <td><?php echo $pro['Cod_Mad']; ?></td>
                                             <td><?php echo $pro['Nom_Sma']; ?></td>
                                             <td><?php echo $pro['Nom_Ssm']; ?></td>
-                                            <td><?php echo $pro['Tce_Mad']; ?></td>
-                                            <td><?php echo $pro['Stc_Mad']; ?></td>
-                                            <td><?php echo $pro['Prc_Mad']; ?></td>
-                                            <td><?php echo $pro['Prp_Mad']; ?></td>
+                                            <td><?php echo $pro['Nom_Cep']; ?></td>
+                                            <td><?php echo $pro['Nom_Sce']; ?></td>
+                                            <td><?php echo $pro['Pm2_Car_Mad']; ?></td>
+                                            <td><?php echo $pro['Pli_Car_Mad']; ?></td>
+                                            <td><?php echo $pro['Ppi_Car_Mad']; ?></td>
+                                            <td><?php echo $pro['Pm2_Par_Mad']; ?></td>
+                                            <td><?php echo $pro['Pli_Par_Mad']; ?></td>
+                                            <td><?php echo $pro['Ppi_Par_Mad']; ?></td>
                                             <td>
                                                 <?php if ($pro['Img_Mad']): ?>
                                                     <a class="text-black" href="#"
                                                        lnk="<?php echo Yii::app()->baseUrl . '/protected/runtime/productos/' . $pro['Img_Mad']; ?>"
-                                                       tag="lnk-img"><i class="fa fa-picture-o"></i></a>
+                                                       tag="lnk-img2"><i class="fa fa-picture-o"></i></a>
                                                 <?php endif; ?>
                                             </td>
                                         </tr>
@@ -156,6 +209,13 @@
                                     </tbody>
                                 </table>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-lg-12 text-right">
+                            <a href="./index" class="btn btn-success"><i class="fa fa-undo"></i> Reiniciar</a>
                         </div>
                     </div>
                 </div>

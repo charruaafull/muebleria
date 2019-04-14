@@ -25,6 +25,7 @@ class frm_productos extends CFormModel
 
         return array(
             array('Cod_Mue', 'required'),
+            array('Cod_Mue', 'validoCodigo'),
             array('Cod_Mue', 'encodingString'),
             array('Cod_Mue', 'length', 'max' => 12),
 
@@ -120,6 +121,16 @@ class frm_productos extends CFormModel
             if ($val):
                 $this->addError($attribute, ' El campo no puede contener comillas.');
                 exit();
+            endif;
+        endif;
+    }
+
+    public function validoCodigo($attribute)
+    {
+        if ($this->$attribute != ''):
+            $res = Consultas::getCodigo($this->$attribute);
+            if ($res > 0):
+                $this->addError($attribute, 'El código ya existe');
             endif;
         endif;
     }

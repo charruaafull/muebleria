@@ -13,7 +13,7 @@
                     <input type="hidden" name="Id_Prov" id="Id_Prov" readonly
                            value="<?php echo (isset($prov)) ? $prov['Id_Prov'] : ''; ?>">
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-4">
                             <div class="form-group">
                                 <label>Nombre Completo</label>
                                 <input type="text" name="Nom_Prov" id="Nom_Prov"
@@ -21,7 +21,7 @@
                                        class="form-control">
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <div class="form-group">
                                 <label>Provincia</label>
                                 <select name="Pro_Prov" id="Pro_Prov" class="form-control">
@@ -44,7 +44,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <div class="form-group">
                                 <label>Localidad</label>
                                 <select name="Loc_Prov" id="Loc_Prov" class="form-control">

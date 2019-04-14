@@ -9,6 +9,14 @@ class Consultas
         return sistema::getFila($sql);
     }
 
+    public static function getCodigo($cod)
+    {
+        $sql = "Select count(*) tot From productos Where Cod_Mue = $cod";
+        $res = sistema::getFila($sql);
+        $tot = $res['tot'];
+        return $tot;
+    }
+
     public static function getProducto($Id_Mue)
     {
         $sql = "Select * From productos Where Id_Mue = $Id_Mue";

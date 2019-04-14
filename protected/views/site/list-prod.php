@@ -6,7 +6,7 @@
     <div class="col-lg-12">
         <div class="card">
             <div class="card-header">
-                Buscar Productos
+                Buscar Productos / Mueblería
             </div>
             <div class="card-body">
                 <form id="frm-search" method="get" action="verProd">
@@ -157,7 +157,11 @@
                     </div>
                 </div>
                 <div class="card-footer">
-
+                    <div class="row">
+                        <div class="col-lg-12 text-right">
+                            <a href="./verProd" class="btn btn-success"><i class="fa fa-undo"></i> Reiniciar</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

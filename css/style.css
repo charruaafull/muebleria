@@ -21423,4 +21423,7 @@ ul li {
 .input-error {
     color: red;
     font-size: 12px;
+    right: 30px;
+    position: absolute;
+    top: 35px;
 }
